@@ -11,7 +11,7 @@ During this session we made an audio recording. We were using [Learning Music](h
 
 <div>
   <audio controls>
-    <source src="assets/intro1.mp3" type="audio/mpeg">
+    <source src="../assets/intro1.mp3" type="audio/mpeg">
   </audio>
 </div>
   
