@@ -1,5 +1,13 @@
 # minima
 
+This is the minima theme with some customisations for our ECA class as well as some sample posts for you to build your blog on.
+
+The explanations and examples here are kept simple so that the coder can slowly get used to the process of creating regular posts.
+
+Changes compared to the normal documentation:
+1. Deleted all references to local installation, we are using the web interface only.
+2. The sample posts provided with the theme are left, but they have been adapted when required to make content easier to understand and describing basic tasks in more detail.
+
 *Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.
 
 ***Disclaimer:** The information here may vary depending on the version you're using. Please refer to the `README.md` bundled
@@ -11,18 +19,6 @@ version. e.g. https://github.com/jekyll/minima/blob/v2.5.0/README.md*
 [Theme preview](https://jekyll.github.io/minima/)
 
 ![minima theme preview](/screenshot.png)
-
-## Installation
-
-Add this line to your Jekyll site's Gemfile:
-
-```ruby
-gem "minima"
-```
-
-And then execute:
-
-    $ bundle
 
 
 ## Contents At-A-Glance
