@@ -57,10 +57,6 @@ In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla e
 
 In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
 
-#### But it's probably overkill (h4)
-
-In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
-
 ##### Could be a smaller sub-heading, `pacman` (h5)
 
 In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
@@ -68,6 +64,22 @@ In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla e
 ###### Small yet significant sub-heading  (h6)
 
 In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+
+### Add an image
+
+More often you may want to add an image. Here is what you should do:
+
+1. Select the image you want to use, for simplicity avoid any spaces in the name, rename the file if necessary.
+2. Normally, resize the image so that all images have a similiar width (here I use 640px). So all posts look consistent.
+3. Open the assets folder in your GitHub respository for the webpage, drag and drop the image there and commit it.
+4. Create a new post (pay attention for the naming conventions and the front matter (header) or open an existing post.
+5. Add the proper Markdown syntax to get the image on your post (see below)
+6. Commit your changes, wait for a minute and update your web browser, the image should be visible.
+
+Here is the syntax to add an image:
+```
+![someName](/assets/NameOfYourImage.png or .jpg)
+```
 
 ### Oh hai, an unordered list!!
 
