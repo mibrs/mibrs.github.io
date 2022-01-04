@@ -81,6 +81,9 @@ Here is the syntax to add an image:
 ![someName](/assets/NameOfYourImage.png or .jpg)
 ```
 
+And here is an example image:
+[some Art work](/assets/220104AnImage.png)
+
 ### Oh hai, an unordered list!!
 
 In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
