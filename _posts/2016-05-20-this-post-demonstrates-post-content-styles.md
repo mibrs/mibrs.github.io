@@ -82,7 +82,7 @@ Here is the syntax to add an image:
 ```
 
 And here is an example image:
-[some Art work](/assets/220104AnImage.png)
+![some Art work](/assets/220104AnImage.png)
 
 ### Oh hai, an unordered list!!
 
