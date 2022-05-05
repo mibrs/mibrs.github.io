@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "THE NAMEOFTHEPOST"
+title: "Welcome"
 categories: MAX8
 author:
 - YOURNAME
