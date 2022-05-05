@@ -27,7 +27,7 @@ Many different creative projects can be found on [Generative Gestaltung](http://
 
 ### This is what you should get
 
-<iframe style="width: 720px; height: 720px; overflow: hidden;"  scrolling="no" frameborder="0" src="https://editor.p5js.org/mikefromd/full/zzJHgoQ2D"></iframe>
+<iframe style="width: 800px; height: 800px; overflow: hidden;"  scrolling="no" frameborder="0" src="https://editor.p5js.org/mikefromd/full/zzJHgoQ2D"></iframe>
 
 Now find some interesting animations, remix them and then pubish them on your blog.
 
