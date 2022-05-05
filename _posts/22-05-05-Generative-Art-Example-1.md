@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "An Example of Generative Art -1-"
-categories: "Generative Art" "P5.JS"
+title: "An Example for Generative Art"
+categories: GenerativeArt P5JS
 ---
 
 ### What is this post about?
@@ -24,7 +24,7 @@ Many different creative projects can be found on [Generative Gestaltung](http://
 
 ### This is what you should get
 
-<iframe src="https://editor.p5js.org/mikefromd/full/zzJHgoQ2D"></iframe>
+<iframe style="width: 640px; height: 360px; overflow: hidden;"  scrolling="no" frameborder="0" src="https://editor.p5js.org/mikefromd/full/zzJHgoQ2D"></iframe>
 
-  
+Now find some interesting animations, remix them and then pubish them on your blog.
 
