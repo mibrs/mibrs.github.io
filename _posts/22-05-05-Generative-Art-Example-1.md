@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "An Example for Generative Art"
+title: "Bring a P5.JS sketch on your post with an iframe tag"
 categories: GenerativeArt P5JS
 ---
 
