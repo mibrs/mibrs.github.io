@@ -16,6 +16,6 @@ The photo shows the setup of the modules (including a microphone for recording).
 
 <div>
   <audio controls>
-    <source src="/assets/220517 TinManWithLittleBitKorg.mp3" type="audio/mpeg">
+    <source src="/assets/220517_TinManWithLittleBitKorg.mp3" type="audio/mpeg">
   </audio>
 </div>
