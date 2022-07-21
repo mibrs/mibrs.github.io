@@ -19,7 +19,7 @@ The content here is related to my extracurricular activities "Creative Computing
 - VEX IQ (robotics)
 - Fischertechnik Robo TXT and others (robotics and engineering)
 
-The activities are described from a student's perspective as a learning log, if you are looking for more in-depth information (teacher/engineer's perspective) please check out my sites [passionteaching](www.passionteaching.com) and [kidscoderepo](www.kidscoderepo.wordpress.com).
+The activities are described from a student's perspective as a learning log, if you are looking for more information please check out my site [michaelsposts](https://michaelsposts.com).
 
 Enjoy
 
