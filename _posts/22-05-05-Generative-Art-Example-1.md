@@ -9,13 +9,13 @@ This post displays a p5.js project from "Generative Gestaltung – Creative Codi
 explain how you can post a p5.js project on your personal blog here on GitHub Pages.
 
 ### How to publish your own remix of a p5.js project?
-Many different creative projects can be found on [Generative Gestaltung](http://www.generative-gestaltung.de/2/).
+Many different creative projects can be found on [Generative Gestaltung](https://www.generative-gestaltung.de/2/).
 
 #### Prerequisite:
 Your GitHub Pages site should be running with Jekyll. A short description on how you achieve this can be found in the Moodle course.
 
 #### Here is a short explanation on what to do.
-1. Open the [website](http://www.generative-gestaltung.de/2/), scroll down, then select your preferred project.
+1. Open the [website](https://www.generative-gestaltung.de/2/), scroll down, then select your preferred project.
 2. Open the project in the p5.js editor.
 3. Log in to your p5.js account.
 4. Duplicate the project in your account (you need to be logged in)
