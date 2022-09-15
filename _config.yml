@@ -1,8 +1,8 @@
 title: Creative Computing 2021-22  -  My journal
 author:
-  name: Michael Braehler
-  email: m.braehler@me.com
-description: > 
+  name: mibrs.github.io
+  email: m.braehler@icloud.com
+description: > # keep the comment.
 A blog about Creative Coding
 
 show_excerpts: false # set to true to show excerpts on the homepage
@@ -14,8 +14,8 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: MikeFromD
-    github:  mibrs
+    twitter: jekyllrb
+    github:  jekykk
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
