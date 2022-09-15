@@ -1,7 +1,7 @@
 title: Creative Computing 2021-22  -  My journal
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: Michael Braehler
+  email: m.braehler@me.com
 description: > 
 A blog about Creative Coding
 
@@ -14,8 +14,8 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
+    twitter: MikeFromD
+    github:  mibrs
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
