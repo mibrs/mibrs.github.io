@@ -4,15 +4,14 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This site is set up as a sample blog for students that like to share their work with others. It uses the Jekyll site generator running on GitHub Pages. The later is offering free-of-charge hosting of static blogs, it is part of the GitHub offering and available by default when you set up a user account with GitHub.
 
-You can find the source code for Minima at GitHub:
+Enjoy.
+Michael Braehler
+
+
+Jekyll Theme used:  Minima
 [jekyll][jekyll-organization] /
 [minima](https://github.com/jekyll/minima)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+More about Jekyll: [jekyll](https://jekyllrb.com)
