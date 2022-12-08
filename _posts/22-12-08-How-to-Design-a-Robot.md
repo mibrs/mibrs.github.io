@@ -8,11 +8,11 @@ But how do you proceed beyond that basic design?
 Here are some questions and tasks that lead you to improve your robot further.
 
 1. Identify the tasks your robot has to fulfill 
-    1. What does the robot has to do, breakdown of the various tasks?
-    2. How does the robot interact with the field objects? 
-    3. Break the tasks down into further subunits if required. 
-    4. Describe what you are looking for (requirements) in written words and/or sketches.
-    5. How good does your present design fulfill these requirements (feature, reliability, 
+  - What does the robot has to do, breakdown of the various tasks?
+  - How does the robot interact with the field objects? 
+  - Break the tasks down into further subunits if required. 
+  - Describe what you are looking for (requirements) in written words and/or sketches.
+  - How good does your present design fulfill these requirements (feature, reliability, 
 time)?
 2. Make a priorized list on how to improve your robot, choose independent units whenever possible? For each unit if possible, identify several options.
 3. Do some planning on how to implement your best choices for improvement, how can you quickly built a prototype?
