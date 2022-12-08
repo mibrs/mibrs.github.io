@@ -26,7 +26,7 @@ questions you are looking answers for and only then start to watch the videos. M
 
 ### Videos
 
-![Empty the Yellow Dispenser](assets/221208-Slapshot-Yellow-Dispenser.png)
+![Empty the Yellow Dispenser](/assets/221208-Slapshot-Yellow-Dispenser.png)
 
 [Robot doing the full parcours](https://youtu.be/6iC4Mk1JVLk)
 
