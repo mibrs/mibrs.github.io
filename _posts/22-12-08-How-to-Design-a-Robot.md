@@ -26,23 +26,49 @@ questions you are looking answers for and only then start to watch the videos. M
 
 ### Videos
 
+Here you find links to some videos I found interesting. In some cases I already added a short summary on what you can see.
+
+#### What you can do in 1 minute
+
 ![Empty the Yellow Dispenser](/assets/221208-Slapshot-Yellow-Dispenser.png)
+
+##### Some questions guiding your viewing:
+1. What mechanisms does the robot use to onload the dispenser (3 ways, also think about torque vs. speed)?
+2. How does the robot shoot the disks into the goal zone?
+3. How is the foldable arm constructed? How important is the arm for the overall score of the robot?
+4. How does the robot store the unloaded disks?
+5. Compare the design of your hero robot with the design of this robot. What are the key differences and how do they affect the scoring?
 
 [Robot doing the full parcours](https://youtu.be/6iC4Mk1JVLk)
 
+#### Different mechanisms to shoot the disks into the goal zone, small prototypes for quick validation of concepts
 
 [Shooting mechanisms](https://youtu.be/-InRgi0V-QA)
+
+
+#### Some interesting concepts are implemented here in this robot
 
 [VEX IQ slapshot new idea , Taiwan](https://youtu.be/ejnyE8S7IQk)
 - Arm to unload blue dispensers
 - Use rotating feeder to unload purple dispensers
 - Shooting mechanism with fast rotating wheels
 
+#### Intake and shooter integrated
+
 [VEX IQ Slapshot Dual Purpose Intake & Shooter Mechanism](https://youtu.be/1LOgFoZXZL0)
+
+
+#### A detailed look at the foldable arm for the final touch
 
 [Touchdown mechanism](https://youtu.be/7Pnu3Zpb3Lw)
 
+
+#### Different arrangements for the shooter wheels
+
 [Shooter mechanisms, div. rollers](https://youtu.be/pi5CjlOsS8Q)
+
+
+#### How to collect the disks?
 
 [‘funnel’ to collect and pile disks](https://youtu.be/YpifdtbLjm8)
 
