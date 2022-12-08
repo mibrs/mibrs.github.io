@@ -7,22 +7,23 @@ But how do you proceed beyond that basic design?
 
 Here are some questions and tasks that lead you to improve your robot further.
 
-1. Identify the tasks your robot has to fulfill (here: 
-  1. What does the robot has to do?
+1. Identify the tasks your robot has to fulfill 
+  1. What does the robot has to do, breakdown of the various tasks?
   2. How does the robot interact with the field objects? 
-  3. Break the tasks down into sensitive units
-  4. Sketch what you are looking for (requirements)
+  3. Break the tasks down into further subunits if required. 
+  4. Describe what you are looking for (requirements) in written words and/or sketches.
   5. How good does your present design fulfill these requirements (feature, reliability, 
 time)?
-2. Identify the individual tasks in falling priority and think how the robot can be improved? If possible, identify several options.
-3. Do some planning on how to implement your best choice of improvement, how can you quickly built a prototype?
+2. Make a priorized list on how to improve your robot, choose independent units whenever possible? For each unit if possible, identify several options.
+3. Do some planning on how to implement your best choices for improvement, how can you quickly built a prototype?
 4. Build your prototype / mock-up for that particular feature and test whether your requiremente are fulfilled. If not, do further work.
 5. Think about how to integrate your module into the robot. Modify/downscale/upscale if necessary.
 6. Repeat 2. to 5. for all features you require
 7. Add the modules to your core robot (the chassis with the wheels or whatever you havw already built before.
 
-Below are some linke to videos that look at aspects for a robot that can do the VEX IQ Slapshot challenge. Based on the title, ask yourself some
-questions you are looking answers for and only then start to watch the videos. Make notes and then work on the questions above.
+Below are some links to videos that look at aspects for a robot that can do the VEX IQ Slapshot challenge. Based on the title, ask yourself some
+questions you are looking answers for and only then start to watch the videos. Make notes and then work on the questions above. You can also do your own research with a search engine, search terms like "VEX IQ Slapshot" should give you good results, then focus on videos by clicking on the respective tab.
+
 
 ### Videos
 
