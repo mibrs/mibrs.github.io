@@ -1,4 +1,4 @@
-## How to Design a Robot?
+## How to Design a Robot? Revision 2
 
 ### Process
 When starting on a new design, it is always good to start with something proven to work and then try it out. 
@@ -41,6 +41,13 @@ Here you find links to some videos I found interesting. In some cases I already 
 5. Compare the design of your hero robot with the design of this robot. What are the key differences and how do they affect the scoring?
 
 [Robot doing the full parcours](https://youtu.be/6iC4Mk1JVLk)
+
+#### Mechanism for unloading the purple dispenser
+
+[Mechanism for unloading the purple dispenser](/assets/230104_Unload_Purple_Dispenser.png)
+
+The [video](https://youtu.be/ZX4hUZ3rMkY) shows the mechanism in action and gives further information on how to build and use it.
+
 
 #### Different mechanisms to shoot the disks into the goal zone, small prototypes for quick validation of concepts
 
