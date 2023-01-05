@@ -83,7 +83,7 @@ This mechanism is easy to build and gives great reach that may need to be reduce
 
 #### 5. Some interesting concepts are implemented here in this robot
 
-![Running robot](221208_Taiwan_Rob.png)
+![Running robot](/assets/221208_Taiwan_Rob.png)
 
 [VEX IQ slapshot new idea , Taiwan](https://youtu.be/ejnyE8S7IQk)
 - Arm to unload blue dispensers
@@ -91,6 +91,10 @@ This mechanism is easy to build and gives great reach that may need to be reduce
 - Shooting mechanism with fast rotating wheels
 
 #### 6. Intake and shooter integrated
+
+This study of a mechanism uses a harvester type arrangement for collecting disks from the floor and shooting them when reversing the direction.
+
+[Dual use harvester](/assets/221208_Intake_And_Shoot.png)
 
 [VEX IQ Slapshot Dual Purpose Intake & Shooter Mechanism](https://youtu.be/1LOgFoZXZL0)
 
@@ -106,6 +110,10 @@ This mechanism is easy to build and gives great reach that may need to be reduce
 
 
 #### 9. How to collect the disks?
+
+This video shows a nice way to arrange the disks in one stack, that makes the feeding of the disks for later shooting easier.
+
+![Disk collection and piling](/assets/221208_Disk_Piling.png)
 
 [‘funnel’ to collect and pile disks](https://youtu.be/YpifdtbLjm8)
 
