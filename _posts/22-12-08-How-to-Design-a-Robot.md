@@ -1,35 +1,40 @@
 ## How to Design a Robot? Revision 2
 
 ### Process
-When starting on a new design, it is always good to start with something proven to work and then try it out. 
+When starting on a new design, it is always good to start with something proven to work with and then improve further. That is the purpose of the Hero Robot.
 
 But how do you proceed beyond that basic design?
 
-Here are some questions and tasks that lead you to improve your robot further.
+#### Here are some questions and tasks that lead you to improve your robot further.
 
-1. Identify the tasks your robot has to fulfill 
-  - What does the robot has to do, breakdown of the various tasks?
-  - How does the robot interact with the field objects? 
-  - Break the tasks down into further subunits if required. 
-  - Describe what you are looking for (requirements) in written words and/or sketches.
-  - How good does your present design fulfill these requirements (feature, reliability, 
-time)?
-2. Make a priorized list on how to improve your robot, choose independent units whenever possible? For each unit if possible, identify several options.
-3. Do some planning on how to implement your best choices for improvement, how can you quickly built a prototype?
-4. Build your prototype / mock-up for that particular feature and test whether your requiremente are fulfilled. If not, do further work.
-5. Think about how to integrate your module into the robot. Modify/downscale/upscale if necessary.
-6. Repeat 2. to 5. for all features you require
-7. Add the modules to your core robot (the chassis with the wheels or whatever you havw already built before.
+0. Review what the basic robot can do and what are its weaknesses.
+
+1. Identify the tasks your robot should fulfill - Planning -
+  - What does the robot have to do, breakdown of the various tasks?
+  - How does the robot interact with the field objects (dispensers, disks)?
+  - Note the requirements in writing and/or sketches.
+  - What mechanisms do you need? Are there several options for the same job? Get inspirations elsewhere. Note your ideas in writing and/or sketches.
+  - Where do you see problems with the designs (feature, reliability, time)?
+
+2. Make a priorized list on how to improve your robot; the improvement in your scoring should help you priorize your changes. Also take into account how long you will need to build and test your prototype, the quicker the better - Priorize your work -
+
+3. Build your prototype / mock-up for that particular feature and test whether your requiremente are fulfilled. If not, do further work.
+
+4. Don't foget to think about how to integrate your module into the robot. Modify/downscale/upscale if necessary.
+
+5. When you have tested your module, add the it to your core robot (the chassis with the wheels or whatever you havw already built before.
+
+Always talk with your teammembers and others, this will help you to get a better solution, and faster!
 
 Below are some links to videos that look at aspects for a robot that can do the VEX IQ Slapshot challenge. Based on the title, ask yourself some
-questions you are looking answers for and only then start to watch the videos. Make notes and then work on the questions above. You can also do your own research with a search engine, search terms like "VEX IQ Slapshot" should give you good results, then focus on videos by clicking on the respective tab.
+questions on what you want to learn and only then start to watch the videos. Make notes and then work on the questions above. Also do your own research with a search engine, search terms like "VEX IQ Slapshot" should give you good results, then focus on videos by clicking on the respective tab.
 
 
 ### Videos
 
 Here you find links to some videos I found interesting. In some cases I already added a short summary on what you can see.
 
-#### What you can do in 1 minute
+#### What you can do in 1 minute, an example
 
 ![Empty the Yellow Dispenser](/assets/221208-Slapshot-Yellow-Dispenser.png)
 
