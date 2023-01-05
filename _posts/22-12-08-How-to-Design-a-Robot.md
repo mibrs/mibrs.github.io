@@ -94,7 +94,7 @@ This mechanism is easy to build and gives great reach that may need to be reduce
 
 This study of a mechanism uses a harvester type arrangement for collecting disks from the floor and shooting them when reversing the direction.
 
-[Dual use harvester](/assets/221208_Intake_And_Shoot.png)
+![Dual use harvester](/assets/221208_Intake_And_Shoot.png)
 
 [VEX IQ Slapshot Dual Purpose Intake & Shooter Mechanism](https://youtu.be/1LOgFoZXZL0)
 
