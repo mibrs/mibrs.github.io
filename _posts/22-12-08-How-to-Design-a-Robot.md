@@ -47,12 +47,15 @@ Here you find links to some videos I found interesting. In some cases I already 
 [One Minute Race](https://youtu.be/TFcw7fHoskI) shows a robot in action doing the full parcours. The details below give an idea how the robot has been designed to complete the various tasks. The screenshots focus on ...
 
 - the ramp used to collect the disks from the lower unloading dispensers
+<br>
 ![Ramp and harvester](/assets/230104_Ramp_And_Harvester1.png)
 
 - the gear box to unload the purple dispenser
+<br>
 ![Detail Gears Purple Dispenser](/assets/230105_Detail_Gears_Purple_Dispenser.png)
 
 - unloading the blue and yellow dispensers with a simple arm (but using gears to get sufficient torque)
+<br>
 ![Push for Yellow Dispenser](/assets/230105_Push_for_Yellow_Dispenser.png)
 
 
@@ -73,8 +76,14 @@ The [video](https://youtube.com/shorts/xxmzv5rTl_M?feature=share) shows the cons
 
 [Shooting mechanisms](https://youtu.be/-InRgi0V-QA)
 
+This mechanism is easy to build and gives great reach that may need to be reduced.
+
+![Fly Wheel Derived Shooter](/assets/221208_FlyWheel_Derived.png)
+
 
 #### 5. Some interesting concepts are implemented here in this robot
+
+![Running robot](221208_Taiwan_Rob.png)
 
 [VEX IQ slapshot new idea , Taiwan](https://youtu.be/ejnyE8S7IQk)
 - Arm to unload blue dispensers
