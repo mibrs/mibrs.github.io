@@ -44,10 +44,16 @@ Here you find links to some videos I found interesting. In some cases I already 
 
 #### Mechanism for unloading the purple dispenser
 
-[Mechanism for unloading the purple dispenser](/assets/230104_Unload_Purple_Dispenser.png)
+![Mechanism for unloading the purple dispenser](/assets/230104_Unload_Purple_Dispenser.png)
 
 The [video](https://youtu.be/ZX4hUZ3rMkY) shows the mechanism in action and gives further information on how to build and use it.
 
+
+#### Mechanism to unload and collect disks from blue dispenser
+
+![Details mechanism](/assets/230104_Blue_Dispenser_Mechanism11.png)
+
+The [video](https://youtube.com/shorts/xxmzv5rTl_M?feature=share) shows the construction of th elements lifting the bay of the blue dispenser and then collecting and arranging the disks for shooting.
 
 #### Different mechanisms to shoot the disks into the goal zone, small prototypes for quick validation of concepts
 
