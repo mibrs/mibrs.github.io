@@ -43,59 +43,60 @@ Here you find links to some videos I found interesting. In some cases I already 
 [Robot doing the full parcours](https://youtu.be/6iC4Mk1JVLk)
 
 
-#### 1 Robot running the one minute solo competition, solutions for all tasks of the challenge
+#### 1. Robot running the one minute solo competition, solutions for all tasks of the challenge
+[One Minute Race](https://youtu.be/TFcw7fHoskI) shows a robot in action doing the full parcours. The details below give an idea how the robot has been designed to complete the various tasks. The screenshots focus on ...
 
+- the ramp used to collect the disks from the lower unloading dispensers
 ![Ramp and harvester](/assets/230104_Ramp_And_Harvester1.png)
 
+- the gear box to unload the purple dispenser
 ![Detail Gears Purple Dispenser](/assets/230105_Detail_Gears_Purple_Dispenser.png)
 
+- unloading the blue and yellow dispensers with a simple arm (but using gears to get sufficient torque)
 ![Push for Yellow Dispenser](/assets/230105_Push_for_Yellow_Dispenser.png)
 
-[One Minute Race](https://youtu.be/TFcw7fHoskI)
 
-
-
-#### 2 Mechanism for unloading the purple dispenser
+#### 2. Mechanism for unloading the purple dispenser
 
 ![Mechanism for unloading the purple dispenser](/assets/230104_Unload_Purple_Dispenser.png)
 
 The [video](https://youtu.be/ZX4hUZ3rMkY) shows the mechanism in action and gives further information on how to build and use it.
 
 
-#### 3 Mechanism to unload and collect disks from blue dispenser
+#### 3. Mechanism to unload and collect disks from blue dispenser
 
 ![Details mechanism](/assets/230104_Blue_Dispenser_Mechanism11.png)
 
 The [video](https://youtube.com/shorts/xxmzv5rTl_M?feature=share) shows the construction of th elements lifting the bay of the blue dispenser and then collecting and arranging the disks for shooting.
 
-#### 4 Different mechanisms to shoot the disks into the goal zone, small prototypes for quick validation of concepts
+#### 4. Different mechanisms to shoot the disks into the goal zone, small prototypes for quick validation of concepts
 
 [Shooting mechanisms](https://youtu.be/-InRgi0V-QA)
 
 
-#### 5 Some interesting concepts are implemented here in this robot
+#### 5. Some interesting concepts are implemented here in this robot
 
 [VEX IQ slapshot new idea , Taiwan](https://youtu.be/ejnyE8S7IQk)
 - Arm to unload blue dispensers
 - Use rotating feeder to unload purple dispensers
 - Shooting mechanism with fast rotating wheels
 
-#### 6 Intake and shooter integrated
+#### 6. Intake and shooter integrated
 
 [VEX IQ Slapshot Dual Purpose Intake & Shooter Mechanism](https://youtu.be/1LOgFoZXZL0)
 
 
-#### 7 Detailed look at the foldable arm for the final touch
+#### 7. Detailed look at the foldable arm for the final touch
 
 [Touchdown mechanism](https://youtu.be/7Pnu3Zpb3Lw)
 
 
-#### 8 Different arrangements for the shooter wheels
+#### 8. Different arrangements for the shooter wheels
 
 [Shooter mechanisms, div. rollers](https://youtu.be/pi5CjlOsS8Q)
 
 
-#### 9 How to collect the disks?
+#### 9. How to collect the disks?
 
 [‘funnel’ to collect and pile disks](https://youtu.be/YpifdtbLjm8)
 
