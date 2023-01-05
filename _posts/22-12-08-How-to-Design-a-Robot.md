@@ -40,7 +40,7 @@ Here you find links to some videos I found interesting. In some cases I already 
 4. How does the robot store the unloaded disks?
 5. Compare the design of your hero robot with the design of this robot. What are the key differences and how do they affect the scoring?
 
-[Robot doing the full parcours](https://youtu.be/6iC4Mk1JVLk)
+[YouTube: Robot doing the full parcours](https://youtu.be/6iC4Mk1JVLk)
 
 
 #### 1. Robot running the one minute solo competition, solutions for all tasks of the challenge
@@ -63,18 +63,18 @@ Here you find links to some videos I found interesting. In some cases I already 
 
 ![Mechanism for unloading the purple dispenser](/assets/230104_Unload_Purple_Dispenser.png)
 
-The [video](https://youtu.be/ZX4hUZ3rMkY) shows the mechanism in action and gives further information on how to build and use it.
+The [YouTube video](https://youtu.be/ZX4hUZ3rMkY) shows the mechanism in action and gives further information on how to build and use it.
 
 
 #### 3. Mechanism to unload and collect disks from blue dispenser
 
 ![Details mechanism](/assets/230104_Blue_Dispenser_Mechanism11.png)
 
-The [video](https://youtube.com/shorts/xxmzv5rTl_M?feature=share) shows the construction of th elements lifting the bay of the blue dispenser and then collecting and arranging the disks for shooting.
+The [YouTube video](https://youtube.com/shorts/xxmzv5rTl_M?feature=share) shows the construction of th elements lifting the bay of the blue dispenser and then collecting and arranging the disks for shooting.
 
 #### 4. Different mechanisms to shoot the disks into the goal zone, small prototypes for quick validation of concepts
 
-[Shooting mechanisms](https://youtu.be/-InRgi0V-QA)
+[YouTube: Shooting mechanisms](https://youtu.be/-InRgi0V-QA)
 
 This mechanism is easy to build and gives great reach that may need to be reduced.
 
@@ -85,7 +85,7 @@ This mechanism is easy to build and gives great reach that may need to be reduce
 
 ![Running robot](/assets/221208_Taiwan_Rob.png)
 
-[VEX IQ slapshot new idea , Taiwan](https://youtu.be/ejnyE8S7IQk)
+[YouTube: VEX IQ slapshot new idea , Taiwan](https://youtu.be/ejnyE8S7IQk)
 - Arm to unload blue dispensers
 - Use rotating feeder to unload purple dispensers
 - Shooting mechanism with fast rotating wheels
@@ -96,17 +96,17 @@ This study of a mechanism uses a harvester type arrangement for collecting disks
 
 ![Dual use harvester](/assets/221208_Intake_And_Shoot.png)
 
-[VEX IQ Slapshot Dual Purpose Intake & Shooter Mechanism](https://youtu.be/1LOgFoZXZL0)
+[YouTube: VEX IQ Slapshot Dual Purpose Intake & Shooter Mechanism](https://youtu.be/1LOgFoZXZL0)
 
 
 #### 7. Detailed look at the foldable arm for the final touch
 
-[Touchdown mechanism](https://youtu.be/7Pnu3Zpb3Lw)
+[YouTube: Touchdown mechanism](https://youtu.be/7Pnu3Zpb3Lw)
 
 
 #### 8. Different arrangements for the shooter wheels
 
-[Shooter mechanisms, div. rollers](https://youtu.be/pi5CjlOsS8Q)
+[YouTube: Shooter mechanisms, div. rollers](https://youtu.be/pi5CjlOsS8Q)
 
 
 #### 9. How to collect the disks?
@@ -115,5 +115,5 @@ This video shows a nice way to arrange the disks in one stack, that makes the fe
 
 ![Disk collection and piling](/assets/221208_Disk_Piling.png)
 
-[‘funnel’ to collect and pile disks](https://youtu.be/YpifdtbLjm8)
+[YouTube: ‘funnel’ to collect and pile disks](https://youtu.be/YpifdtbLjm8)
 
