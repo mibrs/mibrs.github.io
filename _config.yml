@@ -1,8 +1,8 @@
 title: Creative Computing - Journal & Sessions
-author: Michael Braehler
-name: mibrs
-email: m.braehler@icloud.com
-description: > # keep the comment.
+author:
+  name: mibrs
+  email: m.braehler@icloud.com
+description: >
   A blog about Creative Coding
 
 show_excerpts: false # set to true to show excerpts on the homepage
