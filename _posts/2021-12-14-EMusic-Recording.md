@@ -12,13 +12,13 @@ During this session we made an audio recording. We were using [Learning Music](h
 
 At the end we were converting the original wav file into the more compact mp3 format and published the audio file on a website. This is the code we were using for that:
 
-{% highlight html %}
+```
 <div>
   <audio controls>
     <source src="/assets/intro1.mp3" type="audio/mpeg">
   </audio>
 </div>
-{% endhighlight %}
+```
 
 ### Here is the audio clip:
 
