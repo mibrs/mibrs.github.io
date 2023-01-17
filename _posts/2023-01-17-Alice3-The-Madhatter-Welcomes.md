@@ -1,3 +1,12 @@
+---
+layout: post
+title: "The Madhatter Welcomes his Audience"
+categories: Introduction
+author:
+- Michael Braehler
+---
+
+
 # Alice 3 - The Madhatter Welcomes his Audience
 
 This post sketches how to plan and implement a basic clip with Alice 3.
