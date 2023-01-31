@@ -27,13 +27,14 @@ The book is in PDF format, so you can download it and work with it even without 
 When  working with sub-parts, in particular for bipeds, you are faced with a lot of joints and it is difficult to find them and identify their orientation. The
 later you need to know in order to move, turn, and roll them.
 
-A trick is to create an instance of the object type *New Axes()* and then link it to the joint you want to explore.
+A trick is to create an instance of the object type *Axes* and then link it to the joint you want to explore.
 
-1. Create a new New Axes() object.
+1. Create a new axes object by clicking on *New Axes()* to call the constructor for an instance of this class.
 2. Go to the Object inspector on the right side and select with "Vehicule" the object or sub-part you want to attach the New Axes object. 
-3. As ab alternative to 2., you can also use the  method *moveAndORientTo*. But this will not follow the movements you apply to your joint.
-4. You are done, now the axes are attached to the joint, and you can easily predict how to manipulate roll, rotate and other movements. You may resize the axes
-before you start your trials. The "one shots" are the perfect tool to define the movements and see immediately what happens.
+3. As an alternative to 2., you can also use the  method *moveAndORientTo* in code or with *one shots*. But this axes instance will not follow the movements you apply to your joint.
+4. You are done, now the axes are attached to the joint, and you can easily predict how to do rolls, rotations and other movements. You may resize the axes
+before you start your trials. The *one shots* are the perfect tool to define the movements and see immediately what happens.
+5. Don't forget to record your movements, so that you can later easily code them in the Code editor.
 
 ![Use of instance of New Axes to Visualize joint movements](/assets/230131_Alice_AxisToShowOrientationOfJoint.png)
 
