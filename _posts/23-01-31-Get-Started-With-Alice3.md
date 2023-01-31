@@ -6,8 +6,6 @@ author:
 - Michael Braehler
 ---
 
-# Get Started With Alice 3
-
 ## Structure of the sessions
 The introduction on Alice 3 follows the free online ebook [Alice 3 - How To Guide](http://www.alice.org/wp-content/uploads/2017/05/Alice-3-HowToGuide-Complete.pdf).
 The book is in PDF format, so you can download it and work with it even without Internet connection.
@@ -37,5 +35,7 @@ A trick is to create an instance of the object type *New Axes()* and then link i
 4. You are done, now the axes are attached to the joint, and you can easily predict how to manipulate roll, rotate and other movements. You may resize the axes
 before you start your trials. The "one shots" are the perfect tool to define the movements and see immediately what happens.
 
-![Use of instance of New Axes to Visualize joint movements]()
+![Use of instance of New Axes to Visualize joint movements](/assets/230131_Alice_AxisToShowOrientationOfJoint.png)
+
+)
 
