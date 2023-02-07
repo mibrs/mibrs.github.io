@@ -49,7 +49,7 @@ These three methods and some more to show the use of camera and object markers a
 
 The Walking procedures are basic so that you can implement them quickly. The code snippet below places the *walk* method inside a count loop, so the tiger takes 1 + 6 half steps, forth and back.
 
-![Walking only](/assets/230207_TigerWalkOnly.png)
+![Walking only](/assets/220207_TigerWalkOnly.png)
 
 There are more realistic procedures available [here](https://www.alice.org/resources/how-tos/biped-walk-cycle/), you may have a look ahead of next session if you like. 
 
