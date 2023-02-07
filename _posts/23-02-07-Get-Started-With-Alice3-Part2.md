@@ -47,7 +47,11 @@ In order for the biped to stand properly after walking, we use the built-in proc
 These three methods and some more to show the use of camera and object markers are used inside the procedure *myFirstMethod*.
 ![myFirstMethode_Code](/assets/230207_Tiger_myFirstMethod.png). The video at the beginning of this post is the full animation.
 
-The Walking procedures are basic so that you can implement them quickly. There are more realistic procedures available [here](https://www.alice.org/resources/how-tos/biped-walk-cycle/), you may have a look ahead of next session if you like. 
+The Walking procedures are basic so that you can implement them quickly. The code snippet below places the *walk* method inside a count loop, so the tiger takes 1 + 6 half steps, forth and back.
+
+![Walking only](/assets/230207_Tiger_myFirstMethod.png)
+
+There are more realistic procedures available [here](https://www.alice.org/resources/how-tos/biped-walk-cycle/), you may have a look ahead of next session if you like. 
 
 Furthermore, there is a very comprehensive tutorial on sub-parts.joint movements on the Alice 3 website, [here](https://www.alice.org/resources/how-tos/manipulating-biped-joints/) is the link to the page.
 
