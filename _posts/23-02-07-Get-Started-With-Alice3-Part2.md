@@ -14,7 +14,7 @@ The focus in this session is on
 
 ## The Tiger in the Desert
 
-![Demo Project Tiger](assets/230207_TigerInTheDesert.jpg)
+![Demo Project Tiger](assets/230207_TigerInTheDesert)
 
 This video shows you a simple example on how you can use these features.
 
