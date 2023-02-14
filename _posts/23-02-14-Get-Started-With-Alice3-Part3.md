@@ -44,6 +44,14 @@ highlighting the new procedures, you can then choose which ones to reuse in your
 
 
 ## New Procedures for Quadrupeds
+
+The following video shows a short video of the sample project that uses the tree new procedures to animate a quadruped.
+
+
+The code of the main function is rather simple, it uses the three procedures and changes the camera angle.
+
+![myFirstMethod](/assets/230214_Quadruped_myFirstMethod.png)
+
 In order to get the procedures, please import the class [Quadrupeds.a3c](https://github.com/mibrs/Alice3Coding) by downloading the 
 zipped file with the repository Alice3Coding.
 
@@ -51,10 +59,15 @@ In this class you find three new procedures:
 
 ### sayWithMouth
 
+![Quadruped_sayWithMouth](230214_Quadruped_sayWithMouth.png)
+
 ### simpleWalk
+
+![Quadruped_simpleWalk](230214_Quadruped_simpleWalk.png)
 
 ### sit
 
+[Procedure sit](/assets/230214_Quadruped_sit.png)
 
 
 ## How to Add und Use Audio Files
