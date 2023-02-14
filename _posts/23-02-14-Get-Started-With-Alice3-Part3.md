@@ -61,4 +61,6 @@ In this class you find three new procedures:
 Everything on how to get audio files into Alice and use them, you can find on the 
 [Alice website](http://www.alice.org/resources/how-tos/the-basics-of-using-audio/).
 
+![Alice Website, Content about Audio](230214AliceSiteOnAudio.png)
+
 You can also find more sounds to reuse [here](http://www.alice.org/resources/alice-3-audioibrary/).
