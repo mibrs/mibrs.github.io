@@ -38,21 +38,21 @@ then drag it to its destination. Then you can release the option key.
 ![Alice Import Export of Classes](/assets/230214AliceImportExport1.png)
 
 Alice allows you to import classes into your project. Actually when importing into a class of the same name, you get a panel 
-highlighting the new procedures, you can then choose which ones to reuse in your project.
+showing the new procedures, you can then choose which ones to reuse in your class.
 
 ![Selection of procedures](/assets/230214ClassImport.png)
 
 
 ## New Procedures for Quadrupeds
 
-The following video clip shows you a sample project using tree new procedures to animate a quadruped.
+The following video clip shows you a sample project using three new procedures to animate a quadruped.
 
 <video width="320" height="240" controls>
   <source src="/assets/230214talkingWalkingFox.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
-The code of the main function is straigt forward, it uses the three procedures and changes the camera angle.
+The code of the main function is straight forward, it uses the three procedures and changes the camera angle.
 
 ![myFirstMethod](/assets/230214_Quadruped_myFirstMethod.png)
 
@@ -63,20 +63,20 @@ In the file you get three new procedures highlighted:
 
 ### sayWithMouth
 
-![Quadruped_sayWithMouth](230214_Quadruped_sayWithMouth.png)
+![Quadruped_sayWithMouth](/assets/230214_Quadruped_sayWithMouth.png)
 
 The procedure animates the mouth while speaking. The procedure introduces a new feature, a parameter. In this procedure, you assign the parameter the text you want to appear in the speech bubble.
 
 ### simpleWalk
 
-![Quadruped_simpleWalk](230214_Quadruped_simpleWalk.png)
+![Quadruped_simpleWalk](/assets/230214_Quadruped_simpleWalk.png)
 
 This procedure coordinates the movements of the four legs to make it appear as the animal is walking. The movement is a simplification, but
 it is a good starting point.
 
 ### sit
 
-[Procedure sit](/assets/230214_Quadruped_sit.png)
+![Procedure sit](/assets/230214_Quadruped_sit.png)
 
 This procedure lets the animal sit down, also taking care of the tail.
 
@@ -85,6 +85,6 @@ This procedure lets the animal sit down, also taking care of the tail.
 Everything on how to get audio files into Alice and use them, you can find on the 
 [Alice website](http://www.alice.org/resources/how-tos/the-basics-of-using-audio/).
 
-![Alice Website, Content about Audio](230214AliceSiteOnAudio.png)
+![Alice Website, Content about Audio](/assets/230214AliceSiteOnAudio.png)
 
 You can also find more sounds to reuse [here](http://www.alice.org/resources/alice-3-audioibrary/).
