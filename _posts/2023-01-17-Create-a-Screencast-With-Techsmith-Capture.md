@@ -28,3 +28,10 @@ Here is an example on how the Capture/Screencast hosted videos can be linked:
 ### With a simple link
 
 [link](https://www.screencast.com/t/ZGZV3n0a)
+
+### Remark for the installation:
+Installing Techsmith Capture is very straight forward on Windows and Intel-based MAC computers, just follow the instructions of the installer application.
+
+For recent Apple computers with the Silicon M1 and M2 processors, you need to allow user management of kernel extentions so that an extension from Rogue Amoeba can be used by the computer. The procedure requires you to restart the computer into the Recovery environment, select *Options* and then choose under *Tools* or *Utilities* *Startup Security Utility*. Here you have to give permission for third-party kernel extensions to be used.  
+
+There is a detailed description on how to dot this for a similar product described [here](https://rogueamoeba.com/support/knowledgebase/?showArticle=ACE-BigSur). Please be aware that you need to have full access to your computer.
