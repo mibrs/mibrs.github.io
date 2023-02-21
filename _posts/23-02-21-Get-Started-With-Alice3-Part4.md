@@ -23,7 +23,7 @@ author:
 
 Events are required to allow the viewer of your animation or game made with Alice 3 to interact with your project using keyboard and mouse. As an example, events can be used to control the movements of an object with the arrow keys or the mouse. Furthermore, events are also used inside of Alice for collision detection (objects are recognized and can be made impermeable so that defined objects can not "walk through" the former any more).
 
-#### Example - Person movea and disappears
+#### Example - Person moves and disappears
 
 The project below implements a simple example. There are two eventListeners implemented,
 - ```addObjectMoveFor``` allows the viewer to control the position of the object *Person1* by using the arrow keys.
