@@ -21,17 +21,12 @@ author:
 
 ### More About Events
 
-Events are required to allow the viewer of your animation or game to interact with your project using keyboard and mouse. Objects in your scene can
-also be used send out an event when another object approaches (proximity) or touches (collision) them. 
+Events are required to allow the viewer of your animation or game to interact with your project using keyboard and mouse. Objects in your scene can also be used send out an event when another object approaches (proximity) or touches (collision) them. 
 
 
 
 ### Example - Person moves along an alley
 
-The project below implements a simple example. There are three eventListeners implemented.
-One event handling demonstrates how to use the mouse, clicking moves the character across the scene. Furthermore, the test project demonstrates
-proximity and collision detection and how to use it.
+The project below implements a simple example. There are three eventListeners implemented. One event handling demonstrates how to use the mouse, clicking moves the character across the scene. Furthermore, the test project demonstrates proximity and collision detection and how to use it.
 
-More explanations are given in the Alice 3 How-To Guide that I also uploaded to the [repository for this module](https://github.com/mibrs/Alice3Coding)
-. Download the repository, you find an introduction about Events with some further explanations and examples in part 4 of the handbook.
-
+More explanations are given in the Alice 3 How-To Guide that I also uploaded to the [repository for this module](https://github.com/mibrs/Alice3Coding). Download the repository, you find an introduction about Events with some further explanations and examples in part 4 of the handbook.
