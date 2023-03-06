@@ -16,7 +16,9 @@ author:
 
 ### Audio
 
-[This post](https://kidscoderepo.wordpress.com/2019/12/05/alice-3-audio-files-in-alice/) describes how to upload and use audio clips inside your projects. The Alice website contains a assortment of audio clips that you can download and then use in your projects. You find the folders with the content [here](https://www.alice.org/resources/alice-3-audioibrary/).
+[This post](https://kidscoderepo.wordpress.com/2019/12/05/alice-3-audio-files-in-alice/) describes how to upload and use audio clips inside your projects. The Alice website contains an assortment of audio clips that you can download and then use in your projects. You find the folders with the content [here](https://www.alice.org/resources/alice-3-audioibrary/).
+
+Download the folders and then import some resources as shown in the post referred to above and use them with the audio blocks of Alice 3.
 
 
 ### Events
