@@ -32,6 +32,6 @@ The project below implements a simple example. There are three eventListeners im
 One event handling demonstrates how to use the mouse, clicking moves the character across the scene. Furthermore, the test project demonstrates
 proximity and collision detection and how to use it.
 
-More explanations are given in the Alice 3 How-To Guide that I also uploaded to the [repository for this module](https://github.com/mibrs/Alice3Coding). Download the repository, you find an introduction about Events in part 4 of the handbook.
-
+More explanations are given in the Alice 3 How-To Guide that I also uploaded to the [repository for this module](https://github.com/mibrs/Alice3Coding)
+. Download the repository, you find an introduction about Events with some further explanations and examples in part 4 of the handbook.
 
