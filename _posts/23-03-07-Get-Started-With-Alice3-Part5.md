@@ -68,7 +68,7 @@ There is the ObjectMover that allows you to steer the player with the arrow keys
 
 The collision and proximity listeners are used to make the game more realistic and allow for more interaction between objects.
 
-![MyFirstMethod](/assets/230307_SimpleGame2)
+![MyFirstMethod](/assets/230307_SimpleGame2.png)
 
 Here is a view on the game. When watching the video and also looking at this image will   notice that the pile of coins is visible. The game was played already one time before I recorded it. Can you suggest a change in myFirstMethod that will correct this error?
 ![One view at the game](/assets/230307_SimpleGame2Intro.png)
