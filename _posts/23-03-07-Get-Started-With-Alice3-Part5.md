@@ -6,19 +6,18 @@ author:
 - Michael Braehler
 ---
 
-## Mouse Events and Collision/Proximity Events
+## First Person Mode and Collision/Proximity Events
 
 ### Learning Objectives:
 
 - What is a First Person View, implement it in Alice 3 using camera markers and the vehicle block
 - Understand the basic concepts behind events (revision)
-- How to use mouse events to control objects
-- How to define collision and proximity events inside Alice 3
+- How to use collision and proximity listeners with Alice 3
 
 
-### First Person View
+### First Person Mode
 
-Many games are run in the first person mode, the player sees things through the eyes of the acting chararcter. The link brings you to a video demonstrating how to set up a First Person Camera view using the vehicle feature. [Setting up a First Person Camera](https://youtu.be/jxXEXJgrm18). The video first (0:00 to 1:27) demonstrates the technique used with *one shots* in the property panel. The camera is attached to the head of the person, the head serves as vehicle for the camera. 
+Many games are run in the first person mode, the player sees things through the eyes of the acting chararcter. The following link brings you to a video demonstrating how to set up a first person camera mode using the vehicle feature. [Setting up a First Person Camera](https://youtu.be/jxXEXJgrm18). The video first (0:00 to 1:27) demonstrates the technique used with *one shots* in the property panel. The camera is attached to the head of the person, the head serves as vehicle for the camera. 
 
 ![Camera Settings for First Person View with one shots](/assets/230307_SetCameraMarkers.png)
 
@@ -31,11 +30,11 @@ The first person view is also implemented in the example for this blog.
 
 ### Collision and Proximity Detection
 
-This important concept is implemented with event handlers. You can define them on the tab ```initializeEventListeners```.
+This important concept is implemented with event listeners. You can define them on the tab ```initializeEventListeners```.
 
 ![Define Listeners](/assets/230307_SelectEventHandlerCollision.png)
 
-You need to declare on two panels which objects can collide/get cloe to each other. In our case of the game descibed below, Alf should not collide with the trees. So Alf will appear on one panel, the six trees by name on the other panel.
+You need to declare on two panels which objects can collide/get close to each other. In our case for the game descibed below, Alf should not collide with the trees. So Alf will appear on one panel, the six trees by name on the other panel.
 
 ![SetA panel](/assets/230307_SelectCollisionSetA.png)
 
@@ -51,8 +50,8 @@ For how to use the event listeners, have a look in the example.
 </div>
 <script src="https://player.vimeo.com/api/player.js"></script>
 
-This simple game has one player, named Alf. You can control the camera by pressing the keys
-- ```C''' Start view
+This simple game has one player, named Alf. You can control the camera view by pressing the keys
+- ```C``` Start view
 - ```M``` See the magic tree
 - ```P``` First Person View
 
@@ -73,3 +72,5 @@ The collision and proximity listeners are used to make the game more realistic a
 
 Here is a view on the game. When watching the video and also looking at this image will   notice that the pile of coins is visible. The game was played already one time before I recorded it. Can you suggest a change in myFirstMethod that will correct this error?
 ![One view at the game](/assets/230307_SimpleGame2Intro.png)
+
+The project is also available on the [Alice repository](https://github.com/mibrs/Alice3Coding) for this activity here on GitHub. You can download (clone) the repository together with other useful information.
