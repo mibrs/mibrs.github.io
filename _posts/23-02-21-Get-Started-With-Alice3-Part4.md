@@ -21,20 +21,7 @@ author:
 Download the folders and then import some resources as shown in the post referred to above and use them with the audio blocks of Alice 3.
 
 
-### First Person View
-
-Many games are run in the first person mode, the player sees things through the eyes of the acting chararcter. The link brings you to a video demonstrating how to set up a First Person Camera view using the vehicle feature. [Setting up a First Person Camera](https://youtu.be/jxXEXJgrm18). The video first (0:00 to 1:27) demonstrates the technique used with *one shots* in the property panel. The camera is attached to the head of the person, the head serves as vehicle for the camera. 
-
-![Camera Settings for First Person View with one shots](/assets/230307_SetCameraMarkers.png)
-
-Then afterwards (1:27 to end) the technique is implemented in the code editor.
-
-![Code for First Person View](/assets/230307_EventsForFirstPersonView1.png)
-
-The first person view is also implemented in the example 2 for this blog.
-
-
-### Events
+### Events (Part 1)
 
 Events are required to allow the viewer of your animation or game made with Alice 3 to interact with your project using keyboard and mouse. As an example, events can be used to control the movements of an object with the arrow keys or the mouse. Furthermore, events are also used inside of Alice for collision detection (objects are recognized and can be made impermeable so that defined objects can not "walk through" the former any more).
 
@@ -46,10 +33,6 @@ The project below implements a simple example. There are two eventListeners impl
 - ```addKeyPressListener``` allow the viewer to make Object *Person1* disappear (Press *1*) or (re)appear (Press *2*) using the opacity property.
 
 ![Alice3-Events1](/assets/230221_AliceEvents1.png)
-
-
-#### Example 2 - Feature demonstration for first person game
-
 
 
 More explanations are given in the Alice 3 How-To Guide that I also uploaded to the [repository for this module](https://github.com/mibrs/Alice3Coding). Download the repository, you find an introduction about Events in part 4 of the handbook.
