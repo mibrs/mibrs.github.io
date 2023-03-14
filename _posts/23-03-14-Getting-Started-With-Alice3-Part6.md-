@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Get Started with Alice 3 - Part 6 - Properties"
+categories: Introduction Alice-3
+author:
+- Michael Braehler
+---
+
+# Getting Started with Alice 3 - Part 6 - Properties
+
+[How to create a property](/assets/230314_CreateProperty1.png)
+
+[Property - Setter](/assets/230314_CreateProperty2.png)
+
+[Property - Getter](/assets/230314_CreateProperty3.png)
+
+There is a template project available [here](https://github.com/mibrs/Alice3Coding/blob/main/230307%20SimpleGame2.a3p) in this repository, for 
+a quick start you can download the project and then remix it.
