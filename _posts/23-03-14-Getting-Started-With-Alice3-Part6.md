@@ -16,7 +16,7 @@ in the following explanations.
 First you need to think which object is best to host the property. From the example above, the status of the coin stack belongs to the 
 coinStack object, the counter to the person in the game that you are playing and that is collecting the stash.
 
-[How to create a property](/assets/230314_CreateProperty1.png)
+![How to create a property](/assets/230314_CreateProperty1.png)
 
 Just open the object panel and then click on *add Property* and make entries where the red flash hints at. Once you are finished and have
 clicked on ok, the property will be created and two new blocks will appear.
@@ -25,12 +25,12 @@ Compared to procedural programming, you will not change the value of the propert
 followed by its (new) value. In object oriented programming like with Java here, you will use a *setter* procedure to assign a value and a *getter*
 function to get its value.
 
-[Property - Setter](/assets/230314_CreateProperty2.png)
+![Property - Setter](/assets/230314_CreateProperty2.png)
 
 The *setter* procedure allows you to assign values to your new property. In the case of the counter, you add a number representing the points 
 you want the player to get.
 
-[Property - Getter](/assets/230314_CreateProperty3.png)
+![Property - Getter](/assets/230314_CreateProperty3.png)
 
 The *getter* function allows you to get the value of the property, in our case the number of points saved. You can use this to make maths with it
 or simply to print out the value.
