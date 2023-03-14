@@ -6,8 +6,6 @@ author:
 - Michael Braehler
 ---
 
-# Getting Started with Alice 3 - Part 6 - Properties
-
 In particular for games you will also need to create and use properties with your game assets. So you can define a property (variable) that stores if
 you have already found a certain asset, for example a coin stack (1). You can also define a counter that collects and adds all points that you
 make in a game (2). These two examples are actually already partially implemented in the small game you can download below. I will refer to them
