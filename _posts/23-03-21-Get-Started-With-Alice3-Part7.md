@@ -12,9 +12,9 @@ In the previous post you learned how to create and use properties. In this post 
 
 We continue to use the game we have started to build two posts before. In this post we will change the game as follows.
 
-- When the teen comes close to a tree with treasure, there will only be a sound. Then the player knows that there is a new treasure close by.
+- When the teen comes close to a tree with treasure, there will be a sound and the treasure becomes visible. So the player knows that there is a new treasure close by, but cannot see it yet.
 - The player has then to steer the teen so that he can see the treasure.
-- Once the treasure is visible, the player has to click on it with the mouse. For the mouse handling, we need to create a new event listener. Once the mouse has been clicked, points are added to the teen's counter. Adding points is done with a new procedure ```addPoint```.
+- Once the treasure is visible for the player, he has to click on it with the mouse. For the mouse handling, we need to create a new event listener. Once the mouse has been clicked, points are added to the teen's counter. Adding points is done with a new procedure ```addPoint```.
 - There is mechanism in place so that a treasure can only count once.
 
 First we need to decide where (which class?) to define our new procedure ```addPoint```. As the count property is defined in class ```TeenPerson``` and the count is "belonging' to this person, we create the new procedure there.
@@ -31,10 +31,15 @@ Now with these features in place, you can further the game as you like by adding
 
 For the collision listener it will be enough to add the new object instance to the array, do this by clicking on the *setB* array list and selecting the new objects.
 
-The proximity listener needs a bit more of modification, you need to delete the ```say``` block and replace the remaining ```this.tree4``` block in the if block to a ```event getSThingFromSetB``` block. Then the sound will be played when you are approaching any treasure not yet found.
+The proximity listener needs a bit more of modification, you need to delete the ```say``` block of the previous version and replace the remaining ```this.tree4``` block in the if block to a ```event getSThingFromSetB``` block. Furthermore, you need to nest two if blocks, then the sound will be played when you are approaching one or the other treasure not yet found.
 
 In the mouseClicked procedure, add one more if statement for each treasure you add using the new treasure (coinStack) instances you have created.
 
+There is another change in the logic of the if blocks, I am using a ```not``` with the ```getCoinStackTaken``` function. In this way it is easier to nest the if blocks when you want to add more treasures.
+
+As a simplification, you can also move the ```opacity``` block from the ```proximity``` procedure to the ```on click``` procedure, then you do not need to add if blocks to the former. Try it out! The image below shows you how the changes are implemented. Furthermore, you also need to add ```opacity``` = 0 for the new stash in ```myFirstMethod``` so that you do not see its location when launching the game.
+
+![Game with two stacks of coints](/assets/230321_ModifTwoStacks.png)
 
 ### Video about coding procedures.
 
