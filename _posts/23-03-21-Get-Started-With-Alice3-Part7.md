@@ -35,9 +35,9 @@ The proximity listener needs a bit more of modification, you need to delete the 
 
 In the mouseClicked procedure, add one more if statement for each treasure you add using the new treasure (coinStack) instances you have created.
 
-There is another change in the logic of the if blocks, I am using a ```not``` with the ```getCoinStackTaken``` function. In this way it is easier to nest the if blocks when you want to add more treasures.
+There is another change in the logic of the if blocks, I am using a ```NOT``` with the ```getCoinStackTaken``` function. In this way it is easier to nest the if blocks when you want to add more treasures.
 
-As a simplification, you can also move the ```opacity``` block from the ```proximity``` procedure to the ```on click``` procedure, then you do not need to add if blocks to the former. Try it out! The image below shows you how the changes are implemented. Furthermore, you also need to add ```opacity``` = 0 for the new stash in ```myFirstMethod``` so that you do not see its location when launching the game.
+As a simplification, you can also move the ```opacity``` block from the *proximityEntered* procedure to the *mouseClicked* procedure, then you do not need to add if blocks to the former. Try it out! The image below shows you how the changes are implemented. Furthermore, you also need to add ```opacity``` = 0 for the new stash in *myFirstMethod* so that you do not see its location when launching the game.
 
 ![Game with two stacks of coints](/assets/230321_ModifTwoStacks.png)
 
