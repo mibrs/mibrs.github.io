@@ -8,7 +8,7 @@ author:
 
 This module will cover a basic introduction to Python. 
 
-First, we will use Tigerjython to get some basic knowledge on 
+First, we will use [Tigerjython](https://tigerjython.com/en) to get some basic knowledge on 
 
 - data handling (variables, assignments)
 - flow of a program (sequence) and 
