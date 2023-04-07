@@ -8,4 +8,4 @@ author:
 
 This module will cover a basic introduction to Python
 
-![Mindmap RenPy](/assets/RenPy_Concept_Draft1.pdf)
+![Mindmap RenPy](/assets/RenPy_Map_Draft1.png)
