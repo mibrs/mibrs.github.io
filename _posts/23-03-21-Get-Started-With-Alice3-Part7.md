@@ -43,7 +43,7 @@ As a simplification, you can also move the ```opacity``` block from the *proximi
 
 ### Video about coding procedures.
 
-The follwing video from the Alice 3 website explains how to create a procedure in more detail.
+The follwing video from the Alice 3 website explains in more detail how to create a procedure.
 
 <iframe 
         width="560" height="315" 
@@ -52,3 +52,5 @@ The follwing video from the Alice 3 website explains how to create a procedure i
         frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 </iframe>
+
+This seventh session concludes the basic introduction on Alice 3.
