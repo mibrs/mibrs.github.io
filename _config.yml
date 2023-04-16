@@ -4,6 +4,9 @@ author:
   email: m.braehler@icloud.com
 description: "A blog about Creative Coding"
 
+# Build settings, new
+remote_theme: jekyll/minima
+
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -50,7 +53,7 @@ header_pages:
  - about.md
 
 # Build settings
-theme: minima
+# theme: minima
 
 plugins:
  - jekyll-feed
