@@ -1,4 +1,11 @@
-## How to Design a Robot? Revision 2
+---
+title: How to Design a Robot? Revision 2
+layout: post
+categories: robotics VEXIQ
+author:
+- Michael Braehler
+---
+
 
 ### Process
 When starting on a new design, it is always good to start with something proven to work with and then improve further. That is the purpose of the Hero Robot.
