@@ -24,4 +24,7 @@ The website provides a basic guideline on how to learn about these products. Fur
 I hope that you find the posts useful. Recently, I have also started work on remodelling my main website [michaelsposts.com](www.michaelsposts.com), you may also have a look there.
 
 Enjoy and be creative!
+
 Michael
+
+## Posts
