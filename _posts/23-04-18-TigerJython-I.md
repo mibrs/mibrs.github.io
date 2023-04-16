@@ -10,7 +10,7 @@ author:
 
 The material supports your learning journey with Python. We are using [TigerJython](https://tigerjython.ch/en), an implementation of Python.
 
-## Basic Concepts Introduced:
+## Basic Concepts Introduced in Part I:
 
 - Values (numbers, characters and composite values)
 - Repetition with ```repeat```
