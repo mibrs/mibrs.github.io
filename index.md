@@ -8,7 +8,6 @@
 layout: home
 ---
 
-### Welcome
 
 This website features materials on
 
@@ -21,7 +20,7 @@ and some supportive materials for website design, as well as about GitHub Pages 
 
 The website provides a basic guideline on how to learn about these products. Furthermore, for some of the topics you find repositories on this GitHub site with further code and assets. The course the posts are derived from is held every year, every time there are adjustments and changes that reflect the feedback from previous courses and new insights into the subject.
 
-I hope that you find the posts useful. Recently, I have also started work on remodelling my main website [michaelsposts.com](www.michaelsposts.com), you may also have a look there.
+I hope that you find the posts useful. Recently, I have also started work on remodelling my main website [michaelsposts.com](michaelsposts.com), you may also have a look there.
 
 Enjoy and be creative!
 
