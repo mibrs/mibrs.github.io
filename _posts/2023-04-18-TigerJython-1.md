@@ -1,6 +1,6 @@
 ---
-layout: post
 title: "Some Basic Programming With TigerJython I"
+layout: post
 categories: Introduction Python TigerJython Turtle
 author:
 - Michael Braehler
