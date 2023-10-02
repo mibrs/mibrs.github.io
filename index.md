@@ -12,12 +12,13 @@ layout: home
 
 This website features materials on
 
+- HTML - CSS
+- TigerJython
 - MAX 8 by Cycling'74
 - Alice 3
-- TigerJython
 - RenPy
 
-and some supportive materials for website design, as well as about GitHub Pages and the use of Jekyll to create a blog with focus on the content.
+and will be continuously upgraded throughout the school year 2023/24.
 
 The website provides a basic guideline on how to learn about these products. Furthermore, for some of the topics you find repositories on this GitHub site with further code and assets. The course the posts are derived from is held every year, every time there are adjustments and changes that reflect the feedback from previous courses and new insights into the subject.
 
