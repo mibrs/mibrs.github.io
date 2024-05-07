@@ -34,7 +34,7 @@ The camera marker allows to you to define camera positions, including orientatio
 
 Object markers are similar, they allow you to define and save a marker for a location on you scene. This is useful if you want to move an object to a well defined position at another object, for example the top of a stone. You can move without object marker one object to the stone, but this will result in your object to be in the middle of the stone. You need an object marker to pinpoint the top of the stone or any other detailed location, then you can move there. The video here [Bill Barnum: Alice 3 Tutorial - #05 - Object Markers And Camera Markers](https://youtu.be/hqE15vsLtAA?si=lFcWJszvZZc07vPY) describes a scenario with both camera and object markers and how to code them for a short animation.
 
-![Video about how to use camera and object markers}(assets/2024-05-07_09-18-58.png)
+![Video about how to use camera and object markers](assets/2024-05-07_09-18-58.png)
 
 ## Walking
 The three code snippets below can be used to make a biped walk. In order to be able to use the methods not only for the tiger, but for all bipeds, we are defining two procedures in class Biped. One way to create those proecedures is by opening the object tree browser, selecting the Biped class and then clicking on *New Procedure*. The whole process is described in an older tutorial [here](https://kidscoderepo.wordpress.com/category/programming-language/alice/), the method *walk* in that post is slightly different, the method described below here is simpler.
