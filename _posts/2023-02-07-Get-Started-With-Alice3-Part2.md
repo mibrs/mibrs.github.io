@@ -36,7 +36,9 @@ Object markers are similar, they allow you to define and save a marker for a loc
 
 ![Video about how to use camera and object markers](/assets/2024-05-07_09-18-58.png)
 
+
 ## Walking
+
 The three code snippets below can be used to make a biped walk. In order to be able to use the methods not only for the tiger, but for all bipeds, we are defining two procedures in class Biped. One way to create those proecedures is by opening the object tree browser, selecting the Biped class and then clicking on *New Procedure*. The screenshot shows you how to access the part of the code editor that allows you to create and edit procedures and functions.
 
 ![How to edit methods](/assets/2024-05-07_09-32-44.png)
@@ -56,8 +58,11 @@ in the same position it started.
 
 In order for the biped to stand properly after walking, we use the built-in procedure *straigtenOutJoints*.
 
-These three methods and some more to show the use of camera and object markers are used inside the procedure *myFirstMethod*.
-![myFirstMethode_Code](/assets/230207_Tiger_myFirstMethod.png). The video at the beginning of this post is the full animation.
+These three methods and some more to show the use of camera and object markers are used inside the procedure *myFirstMethod*. You can also download the project from the repository, it's name is *240506_Tiger3.a3p*. Download the program, remix it and make it your own.
+
+![myFirstMethode_Code](/assets/2024-05-07_11-18-15.png). 
+
+The video at the beginning of this post is the full animation.
 
 The walking algorithm used here is very basic, but this is on purpose as it makes coding faster. The code snippet below places the *walk* method inside a count loop, so the tiger takes 1 + 6 half steps, forth and back.
 
