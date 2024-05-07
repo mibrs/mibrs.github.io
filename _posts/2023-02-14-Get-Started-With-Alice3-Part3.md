@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Get Started with Alice 3 - Part 3"
+title: "Get Started with Alice 3 - Part 3 - Copy & Paste, Import & Export Procedures, More Animation, Sound"
 categories: Introduction Alice-3
 author:
 - Michael Braehler
