@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Get Started with Alice 3 - Part 4"
+title: "Get Started with Alice 3 - Part 4 - How to Get Sound, eventListeners and First Example"
 categories: Introduction Alice-3
 author:
 - Michael Braehler
