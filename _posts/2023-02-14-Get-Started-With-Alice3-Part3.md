@@ -86,6 +86,24 @@ it is a good starting point.
 This procedure lets the animal sit down, also taking care of the tail.
 
 
+### Figuring out subpart movements
+
+![Closing the left eyelid](/assets/2024-05-07_14-30-37.png)
+
+Figuring out how the subparts of an object are moving, takes some time. It is a good approch to select an object in the Scene View, choose an opacity of 0.3 and then click the box ```Show Joints```. You will see many small coloured axes depicting all joints available. 
+
+Next, you select a subpart of your object and then when use ```one shots``` with different movement procedures, normally turning and rolling, using different directions and values to figure out how things can be controlled.
+
+The colours of the axis have the following meaning:
+
+- white -> forward
+- blue -> backward
+- red -> right
+- green -> up
+
+turns change the sense of forward, rolls will roll the object around the white axis. Moves are normally not recommendable, they stretch/squeeze the attached subparts.
+
+
 ### Vehicle function
 
 Somtimes you want to move two objects together, using one method only. An example is the rider on a horse, in Alice these two are distinctive objects. You can do link them by making the horse the vehicle of the rider. The screenshot shows how this works. Afterwards, when you move the horse, the rider will be moved together, as one unit.
