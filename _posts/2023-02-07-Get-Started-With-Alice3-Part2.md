@@ -58,7 +58,10 @@ in the same position it started.
 
 In order for the biped to stand properly after walking, we use the built-in procedure *straigtenOutJoints*.
 
-These three methods and some more to show the use of camera and object markers are used inside the procedure *myFirstMethod*. You can also download the project from the repository, it's name is *240506_Tiger3.a3p*. Download the program, remix it and make it your own.
+
+## The full tiger project
+
+These three methods and some more to show the use of camera and object markers are used inside the procedure *myFirstMethod*. You can also download the project from the [repository](https://github.com/mibrs/Alice3Coding/blob/main/240506_Tiger3.a3p) , it's name is *240506_Tiger3.a3p*. Download the program, remix it and make it your own.
 
 ![myFirstMethode_Code](/assets/2024-05-07_11-18-15.png). 
 
