@@ -14,7 +14,8 @@ author:
 
 ## Some Explanations
 
-### Use of the Clipboard, Duplicate blocks
+### Use of the Clipboard, Duplicate blocks, Intelligent Undo
+
 The normal copy and paste commands from other applications do not work with Alice 3, the graphical code blocks need 
 to be manipulated in a different manner.
 
@@ -32,6 +33,10 @@ Clipboard, the oldest will be the last one you can retrieve (Stack).
 
 If you want to duplicate a block in the editor, just just press the option key, click the item you want to duplicate and
 then drag it to its destination. Then you can release the option key.
+
+Besides the classic Clipboard, Alice also provides under ```Project/Project History``` a step-by-step history of each change you made since you opened the project. You can select a step and you will see in the code editor a roll back to the situation at this point. If you are lost and the project is not any more doing what you want it to do, this may be your saviour. Select the step you are still feeling fine with, undo all changes since, and start anew.
+
+![Project History](/assets/2024-05-07_12-09-03.png)
 
 
 ## Import (and Export) classes
