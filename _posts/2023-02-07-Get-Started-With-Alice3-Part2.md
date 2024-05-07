@@ -37,7 +37,11 @@ Object markers are similar, they allow you to define and save a marker for a loc
 ![Video about how to use camera and object markers](/assets/2024-05-07_09-18-58.png)
 
 ## Walking
-The three code snippets below can be used to make a biped walk. In order to be able to use the methods not only for the tiger, but for all bipeds, we are defining two procedures in class Biped. One way to create those proecedures is by opening the object tree browser, selecting the Biped class and then clicking on *New Procedure*. The whole process is described in an older tutorial [here](https://kidscoderepo.wordpress.com/category/programming-language/alice/), the method *walk* in that post is slightly different, the method described below here is simpler.
+The three code snippets below can be used to make a biped walk. In order to be able to use the methods not only for the tiger, but for all bipeds, we are defining two procedures in class Biped. One way to create those proecedures is by opening the object tree browser, selecting the Biped class and then clicking on *New Procedure*. The screenshot shows you how to access the part of the code editor that allows you to create and edit procedures and functions.
+
+![How to edit methods](/assets/2024-05-07_09-32-44.png)
+
+The whole process is described in an older tutorial [here](https://kidscoderepo.wordpress.com/category/programming-language/alice/), the method *walk* in that post is slightly different, the method shown below is simpler.
 
 You will need to create two procedures, *firstStep* and *walk*.
 
