@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Get Started with Alice 3 - Part 3 - Copy & Paste, Import & Export Procedures, More Animation, Sound"
+title: "Get Started with Alice 3 - Part 3 - Copy & Paste, Import & Export Procedures, More Animation, Vehicles, Sound"
 categories: Introduction Alice-3
 author:
 - Michael Braehler
@@ -79,6 +79,13 @@ it is a good starting point.
 ![Procedure sit](/assets/230214_Quadruped_sit.png)
 
 This procedure lets the animal sit down, also taking care of the tail.
+
+
+### Vehicle function
+
+Somtimes you want to move two objects together, using one method only. An example is the rider on a horse, in Alice these two are distinctive objects. You can do link them by making the horse the vehicle of the rider. The screenshot shows how this works. Afterwards, when you move the horse, the rider will be moved together, as one unit.
+
+![Rider uses horse as vehicle](/assets/2024-05-07_12-21-22.png)
 
 
 ## How to Add und Use Audio Files
