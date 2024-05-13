@@ -64,7 +64,23 @@ Here are two examples.
 
 If you have set up a Listener for the arrow keys on the keyboard, and the user is pressing the up key, you could program your main character in the game to move forward. You can also make your main character stop if he collides with a prefined object in the game. 
 
+Alice provides eventListeners for the following types of events:
+
+1. At scene activiation (begin) or a defined point in time thereafter
+2. various keyboard button interaction,
+3. The Object Mover Listener assigns the arrow keys to an object that the player can steer without the need of any further code
+4. Mouse events
+5. Position and orientation events to detect collision and/or proximity
+
+For most events you also want to determine how the code is executed in the case of multiple occurances, in particular during a short amount of time. You can choose between the following **multipleEventPolicies**
+
+1. **Enqueue** -> The events are queued and executed one after the other until the queue is empty.
+2. **Ignore** -> only one event once (default)
+3. **Combine** -> the program will try to execute all at the same time.
+
 In this session we will focus on movements with the arrow keys and the basics for proximity detection to create a small game.
+
+
 
 
 #### Example 1 - Person moves and disappears
