@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Get Started with Alice 3 - Part 2 - Camera and Object Markers, Code Your Own Procedures"
+title: "Get Started with Alice 3 - Part 2 - Camera and Object Markers, Code Your Own Procedures, Add Sound"
 categories: Introduction Alice-3
 author:
 - Michael Braehler
