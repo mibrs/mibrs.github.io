@@ -54,9 +54,17 @@ These elements are also dragged and dropped on the coding panel. First, you will
 
 ## About Events
 
-### Events (Part 1)
+### An introduction to event handling
 
-Events are required to allow the viewer of your animation or game made with Alice 3 to interact with your project using keyboard and mouse. As an example, events can be used to control the movements of an object with the arrow keys or the mouse. Furthermore, events are also used inside of Alice for collision detection (objects are recognized and can be made impermeable so that defined objects can not "walk through" the former any more).
+All program code we have done so far is executed as described in the procedure **myFirstMethod**. While this main method uses procedures, functions, and properties from all over Alice, they are executed statically, one after the other, as described in said method. So far we have not seen any way to interfer in this predfined execution. While this may be ok as long as we only want to tell a story, this is not acceptable any longer if we want to create a game. The user needs to interact with the game using the keyboard or mouse, and we may even have some interaction of game objects with each other at an unforseen moment, maybe due to the user's intervention.
+
+Alice uses so called **Eventlisteners** for various types of events. These routines are always listening in to discover predefined events (mouse clicks, begin of program, colliding objects, ...). There are several different types of Listeners you can initialize that discover different types of events. In case a particular Listener notices an event of the type it monitors happening, you can create code that will react to that particular event. This is code is then run outside of the myFirstMethod, maybe in parallel.
+
+Here are two examples.
+
+If you have set up a Listener for the arrow keys on the keyboard, and the user is pressing the up key, you could program your main character in the game to move forward. You can also make your main character stop if he collides with a prefined object in the game. 
+
+In this session we will focus on movements with the arrow keys and the basics for proximity detection to create a small game.
 
 
 #### Example 1 - Person moves and disappears
