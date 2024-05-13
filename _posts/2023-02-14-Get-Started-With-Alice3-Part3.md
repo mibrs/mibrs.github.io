@@ -111,16 +111,6 @@ Somtimes you want to move two objects together, using one method only. An exampl
 ![Rider uses horse as vehicle](/assets/2024-05-07_12-21-22.png)
 
 
-## How to Add und Use Audio Files
-
-Everything on how to get audio files into Alice and use them, you can find on the 
-[Alice website](http://www.alice.org/resources/how-tos/the-basics-of-using-audio/).
-
-![Alice Website, Content about Audio](/assets/230214AliceSiteOnAudio.png)
-
-You can also find more sounds to reuse [here](http://www.alice.org/resources/alice-3-audioibrary/).
-
-
 ## Links to all materials referred to here
 
 - [Alice 3 - How To Guide, the book introduction Alice 3 being used as reference here](http://www.alice.org/wp-content/uploads/2017/05/Alice-3-HowToGuide-Complete.pdf).
