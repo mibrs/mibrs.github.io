@@ -83,7 +83,6 @@ Everything on how to get audio files into Alice and use them, you can find on th
 
 ![Alice Website, Content about Audio](/assets/230214AliceSiteOnAudio.png)
 
-You can also find more sounds to reuse [here](http://www.alice.org/resources/alice-3-audioibrary/).
+[This post](https://kidscoderepo.wordpress.com/2019/12/05/alice-3-audio-files-in-alice/) describes how to upload and use audio clips inside your projects. The Alice website contains an assortment of audio clips that you can download and then use in your projects. You find the folders with the content [here](https://www.alice.org/resources/alice-3-audioibrary/).
 
-
-
+Voice recordings make your animation more lively and interesting, sound effects like thunder help to enforce the atmosphere you want to create.
