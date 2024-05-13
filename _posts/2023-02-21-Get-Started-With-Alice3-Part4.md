@@ -17,7 +17,7 @@ author:
 
 The project below is very simple, the man is asking the woman how many dogs she has, this continues until the man guesses the correct number (2). By keeping this game short, you can learn the basics of some key programming concepts without getting lost in a maze of code.
 
-![Project with Variable, Assignment, Input, Loop and Conditional](/assets/2024-05-13_22-52-41.png)
+![Project with Variable, Assignment, Input, Loop and Conditional](/assets/2024-05-13_22-52-412.png)
 
 This small project contains all the basics you need for a small interactive program. While the ```say``` blocks come from the persons' procedures, ```variable```, ```assign```, ```while```, and ```if``` can be found at the bottom of the window. Just drag and drop them on the code window and then unfold the options to design your statements. Here are some further remarks.
 
