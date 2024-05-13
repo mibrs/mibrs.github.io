@@ -76,4 +76,14 @@ There are more realistic procedures for walking available [here](https://www.ali
 Furthermore, there is a very comprehensive tutorial on sub-parts/joint movements on the Alice 3 website, [here](https://www.alice.org/resources/how-tos/manipulating-biped-joints/) is the link to the page.
 
 
+## How to Add und Use Audio Files
+
+Everything on how to get audio files into Alice and use them, you can find on the 
+[Alice website](http://www.alice.org/resources/how-tos/the-basics-of-using-audio/).
+
+![Alice Website, Content about Audio](/assets/230214AliceSiteOnAudio.png)
+
+You can also find more sounds to reuse [here](http://www.alice.org/resources/alice-3-audioibrary/).
+
+
 
