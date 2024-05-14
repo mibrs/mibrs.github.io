@@ -116,7 +116,7 @@ Under **Selecton** in the window you see all procedures/functions/properties ava
 
 So the ```SThing``` class can hold any other object in the game. On the other hand you notice that the top class only has a very few procedures/functions/properties it shares with the lower classes. So choosing the correct level/class type for your variable determines what you can later do with it as you can only use those procedures/functions/propoerties avaiable for the chosen data type of the variable.
 
-For the game the class ```SThing``` was selected. Once you have created the variable, you need to add an assign block (see again part 3 here). Inside the say block, I used the function ```... toString``` that converts the object name into a string so that it can be printed out. When you go back to the screenshot of the declaration of the variable, you see the function's name on the list at the right side.
+For the game the class ```SThing``` was selected. Once you have created the variable, you need to add an assign block (see again earlier in this post). Inside the say block, I used the function ```... toString``` that converts the object name into a string so that it can be printed out. When you go back to the screenshot of the declaration of the variable, you see the function's name on the list at the right side.
 
 The last screenshot shows what happens when you approach one of the props on the ground.
 
