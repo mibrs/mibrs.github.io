@@ -100,15 +100,15 @@ The scenario comprises the Mars Rover named **redRover** on a Mars alike setting
 
 The movement of the rover is implemented in the same way as in example 1. Just open the ```initializeEventListeners``` tab and create an ```addObjectMoverFor``` block linking the rover as object you want to steer. Here is the complete code for the game.
 
-[The code for the game - part 1](/assets/2024-05-14_13-15-16.png)
+![The code for the game - part 1](/assets/2024-05-14_13-15-16.png)
 
 Adding the proximity listener is a bit more complex. Again, click on ```Add Event Listener``` and then unfold the structure as shown.
 
-[addProxmityEnterListener](/assets/2024-05-14_13-19-06.png)
+![addProxmityEnterListener](/assets/2024-05-14_13-19-06.png)
 
 During the process, you also need to add objects as setA and setB. As you can see in the complete code listing above, setA only contains the robot, setB contains all objects you want the robot to detect. The last parameter is the distance between robot and object to trigger an event.
 
-[How to create a sensible variable to hold the triggered objects](/assets/2024-05-14_13-17-31.png)
+![How to create a sensible variable to hold the triggered objects](/assets/2024-05-14_13-17-31.png)
 
 Once you have created the procedure for the event, you need to create a variable to hold the objects that are reported triggered by the listener. When doing so in part 3 for simple data types, it was straight forward, this time you have to figure out a proper type. You may recall that in Alice all objects are arranged in a class hierarchy inheriting procedures/function/properties from their parents, while adding new ones by themselves. The screenshot above shows you what happens when you create a new variable and select ```value type``` and then click on ```Gallery Class```. 
 
@@ -120,6 +120,6 @@ For the game the class ```SThing``` was selected. Once you have created the vari
 
 The last screenshot shows what happens when you approach one of the props on the ground.
 
-[Rover near boulder3](/assets/2024-05-14_13-14-27.png)
+![Rover near boulder3](/assets/2024-05-14_13-14-27.png)
 
 More explanations are given in the Alice 3 How-To Guide that I also uploaded to the [repository for this module](https://github.com/mibrs/Alice3Coding). Download the repository, you find an introduction about Events in part 4 of the handbook. 
