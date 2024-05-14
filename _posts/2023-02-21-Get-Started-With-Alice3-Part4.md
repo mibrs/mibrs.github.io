@@ -10,7 +10,7 @@ author:
 - How to create variables and assign them values
 - How to get user input with requester
 - Understand the basic concepts behind events and what events Alice can deal with
-- Try out your knowledge on a Game of Mars Rover, Part 1
+- Try out your knowledge on a Game of Mars Rover, Part 1 using event listeners to steer a robot witharrow keys and use proximityListener
 
 
 ## Variables, Assignments, and Input
@@ -86,10 +86,40 @@ In this session we will focus on movements with the arrow keys and the basics fo
 #### Example 1 - Person moves and disappears
 
 The project below implements a simple example. There are two eventListeners implemented,
-- ```addObjectMoveFor``` allows the viewer to control the position of the object *Person1* by using the arrow keys.
+- ```addObjectMoveFor``` allows the viewer to steer the position of the object *Alf* by using the arrow keys. This can be any model.
 - ```addKeyPressListener``` allow the viewer to make Object *Person1* disappear (Press *1*) or (re)appear (Press *2*) using the opacity property.
 
 ![Alice3-Events1](/assets/230221_AliceEvents1.png)
 
 
-More explanations are given in the Alice 3 How-To Guide that I also uploaded to the [repository for this module](https://github.com/mibrs/Alice3Coding). Download the repository, you find an introduction about Events in part 4 of the handbook.
+#### Example 2 - Mars Rover
+
+![Mars Rover environment in the Scene Editor](/assets/2024-05-14_13-21-19.png)
+
+The scenario comprises the Mars Rover named **redRover** on a Mars alike setting with some props placed on the ground. The rover can be moved using the arrow keys. Whenever the rover approaches one of these props more than one meter, the rover will say the name of the obect that it is close to.
+
+The movement of the rover is implemented in the same way as in example 1. Just open the ```initializeEventListeners``` tab and create an ```addObjectMoverFor``` block linking the rover as object you want to steer. Here is the complete code for the game.
+
+[The code for the game - part 1](/assets/2024-05-14_13-15-16.png)
+
+Adding the proximity listener is a bit more complex. Again, click on ```Add Event Listener``` and then unfold the structure as shown.
+
+[addProxmityEnterListener](/assets/2024-05-14_13-19-06.png)
+
+During the process, you also need to add objects as setA and setB. As you can see in the complete code listing above, setA only contains the robot, setB contains all objects you want the robot to detect. The last parameter is the distance between robot and object to trigger an event.
+
+[How to create a sensible variable to hold the triggered objects](/assets/2024-05-14_13-17-31.png)
+
+Once you have created the procedure for the event, you need to create a variable to hold the objects that are reported triggered by the listener. When doing so in part 3 for simple data types, it was straight forward, this time you have to figure out a proper type. You may recall that in Alice all objects are arranged in a class hierarchy inheriting procedures/function/properties from their parents, while adding new ones by themselves. The screenshot above shows you what happens when you create a new variable and select ```value type``` and then click on ```Gallery Class```. 
+
+When you choose under selecton a class, you will see on the right all procedures/functions/properties available for the particular class. The variable you delcare here, will later hold a reference to the object the rover is in proximity to. In order for the class to qualify holding your model class from the game, it must be either same type or above your  class in the tree structure. The higher up in the tree a class, the more universal it is and generalizes all classes below. 
+
+So the ```SThing``` class can hold any other object in the game. On the other hand you notice that the top class only has a very few procedures/functions/properties it shares with the lower classes. So choosing the correct level/class type for your variable determines what you can later do with it.
+
+For the game the class ```SThing``` was selected. Once you have created the variable, you need to add an assign block (see again part 3 here). Inside the say block, I used the function ```... toString``` that converts the object name into a string so that it can be printed out. When you go back to the screenshot of the declaration of the variable, you see the function's name on the list at the right side.
+
+The last screenshot shows what happens when you approach one of the props on the ground.
+
+[Rover near boulder3](/assets/2024-05-14_13-14-27.png)
+
+More explanations are given in the Alice 3 How-To Guide that I also uploaded to the [repository for this module](https://github.com/mibrs/Alice3Coding). Download the repository, you find an introduction about Events in part 4 of the handbook. 
