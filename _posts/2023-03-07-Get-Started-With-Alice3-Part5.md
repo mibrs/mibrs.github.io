@@ -90,5 +90,5 @@ Here is the code for the Mars rover. When the user steers the rover to run over 
 
 ![Image collision](/assets/240515_ImageCollision.png)
 
-This Mars Rover adventure is only a small project to introduce some core features of Alice 3, feel free to download the game in the repository and add your own ideas.
+This Mars Rover adventure is only a small project to introduce some core features of Alice 3, feel free to download the game in the repository and add your own ideas. You can download the complete game [here](https://github.com/mibrs/Alice3Coding/blob/main/240513_Mars_Rover1-Part5.a3p).
 
