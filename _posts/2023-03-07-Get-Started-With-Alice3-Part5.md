@@ -74,7 +74,10 @@ You need to declare on two panels which object(s) should trigger an event in cas
 
 ![SetB panel](/assets/230307_SelectCollisionSetB.png)
 
-Sometimes you want to add or remove models/objects after you have created the setA and/or setB arrays for proximitiy or collision events.
+Sometimes you want to add or remove models/objects after you have created the setA and/or setB arrays for proximitiy or collision events. In order to do that, just click on the respective ```new ObjectName[](...)``` procedure with the previously chosen objects as parameters, click on **Custom Array**, and then edit the list of objects/models in the opening panel setA or setB.
+
+![How to change the elements of an array object for the listeners](/assets/240515_ChangeObjectArray.png)
+
 
 ![Code for collision events](/assets/240515_CollisionCode.png)
 
