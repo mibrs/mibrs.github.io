@@ -31,26 +31,18 @@ Another classs of events allows us to run code jsut at the beginning of the prog
 
 ### First Person Mode
 
-Many games are run in the first person mode, the user sees things through the eyes of the acting model. We will continue to expand our small Mars Rover Game we have developed in part 4 of this series. As before, we are dealing with listeners, so we will code inside the tab ```initializeEventListeners```.
+Many games are run in the first person mode, the user sees things through the eyes of the acting model. We will continue to expand our small Mars Rover Game we have developed in part 4 of this series. As before, we are dealing with listeners, so we will add the following code inside the tab ```initializeEventListeners``` by creating a new listener first and then adding the logic.
 
-![Camera Settings for First Person View with one shots](/assets/230307_SetCameraMarkers.png)
+![Code for First Person View](/assets/240515_KeyPressed_Event.png)
 
-![Code for First Person View](/assets/230307_EventsForFirstPersonView1.png)
+This simple game has one player, that is our Mars rover. We have two views for the camera that can be selected by pressing keys.
 
-[Code for the Listeners](/assets/ )
-
-This simple game has one player, named Alf. You can control the camera view by pressing the keys
 - ```C``` Start view
 - ```P``` First Person View
 
-You move the person around with the arrow keys. When you approch the magic tree (tree4), he will say *hello* and a pile of coins will appear magically.
+If you decide to use more keys to add more features, make sure that you nest the if statements into each other as it is done here for the two keys.
 
-If you want to get another view about how to implement the first person camera view, click on [Setting up a First Person Camera](https://youtu.be/jxXEXJgrm18), the link brings you to a video demonstrating everything we have discussed and more.
-
-
-![Event Tab](/assets/230307_SimpleGame2Events.png)
-
-There is the ObjectMover that allows you to steer the player with the arrow keys. Then the three keys described above allow the player to change the perspective of the camera.
+[View of the spaceship as seen from the rover](/assets/240515_KeyPressed_Event.png)
 
 
 ### Collision Detection
