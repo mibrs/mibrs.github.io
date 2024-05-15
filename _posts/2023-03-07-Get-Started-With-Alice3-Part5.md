@@ -59,7 +59,7 @@ The options under **heldKeyPolicy** cover the event handling from the point of v
 
 ![keyHeldPolicy Options](/assets/240515_keyTriggering.png)
 
-These two settings are influencing each other, so for the default setting all events following the first are ignored due to multiple event setting, but the chosen key policy you allow for as many triggers as long as you keep the key pressed. Too many triggers and processing in the event loops can deteriorate the performance.
+These two settings are influencing each other, so for the default setting all events following the first are ignored due to multiple event setting, but the chosen key policy you allows a steady flow of triggers, as long as you keep the key pressed. Too many triggers and processing in the event loops can deteriorate the performance, and your game may react sluggish.
 
 
 ### Collision Detection
