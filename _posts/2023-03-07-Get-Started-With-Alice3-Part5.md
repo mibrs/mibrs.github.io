@@ -26,7 +26,7 @@ So far, we have used the ```addObjectMoverFor ...``` to steer our rover. Further
 
 Another classs of events allows us to run code at the beginning of the program or after a certain amount of time after that.is the start of a program. Whenever you click on the ```Run``` button, this triggers the addSceneActivatinnListener to execute some code. The following example makes sure that the camera is always at the starting position.
 
-[Scene Activation Listener](/assets/240515_Alice3_addSceneActivationListener1)
+![Scene Activation Listener](/assets/240515_Alice3_addSceneActivationListener1)
 
 
 
