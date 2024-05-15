@@ -42,7 +42,7 @@ This simple game has one player, that is our Mars rover. We have two views for t
 
 If you decide to use more keys to add more features, make sure that you nest the if statements into each other as it is done here for the two keys.
 
-![View of the spaceship as seen from the rover](/assets/240515_KeyPressed_Event.png)
+![View of the spaceship as seen from the rover](/assets/240515_FirstPersonView.png)
 
 
 ### Collision Detection
