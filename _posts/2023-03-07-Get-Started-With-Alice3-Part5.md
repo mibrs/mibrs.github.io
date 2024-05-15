@@ -10,8 +10,9 @@ author:
 
 ### Learning Objectives:
 
+- Understand the basic concepts behind events (revision), get to know more applications
 - What is a First Person View, implement it in Alice 3 using camera markers and the vehicle block
-- Understand the basic concepts behind events (revision), more applications
+- Use key events to swap between the different camera views and get the possiblity to do other things.
 - How to use the collision listener with Alice 3
 
 
