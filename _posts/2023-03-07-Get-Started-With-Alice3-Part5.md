@@ -80,4 +80,4 @@ Sometimes you want to add or remove models/objects after you have created the se
 
 Here is the code for the rover. When it runs over the cake, the later is flattened; when the rover bumps against the other obstacles, it makes a sound, and bounces a short dietance back. Please also notice how variables and assignments are used to identify the cake. Please refer to the previous post for details.
 
-!{Image collision)[/assets/240515_ImageCollision.png)
+![Image collision](/assets/240515_ImageCollision.png)
