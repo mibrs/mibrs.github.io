@@ -45,6 +45,23 @@ If you decide to use more keys to add more features, make sure that you nest the
 ![View of the spaceship as seen from the rover](/assets/240515_FirstPersonView.png)
 
 
+#### Details for Triggering Keyboard Events
+
+Above the procedure for the keyboardListener there is an option box with ```add detail``` that allows you to configure the listener's response if you press your key(s) many times or longer. 
+
+The options under **multipleEventPolicies** give you choices on how the triggered code should be executed. You have the options of
+
+1. **Enqueue** -> The events are queued and executed one after the other until the queue is empty.
+2. **Ignore** -> only one event once (default)
+3. **Combine** -> the program will try to execute all at the same time.
+
+The options under **heldKeyPolicy** covers the event handling from the point of view of the trigger. The default option ```FIRE_MULTIPLE``` will keep sending out triggers as long as you keep the key pressed. This is the type of behaviour you would use for a steady movement.
+
+![keyHeldPolicy Options](/assets/240515_keyTriggering.png)
+
+These two settings are influencing each other, so for the default setting all events following the first are ignored due to multiple event setting, but the chosen key policy you allow for as many triggers as long as you keep the key pressed. Too many triggers and processing in the event loops can deteriorate the performance.
+
+
 ### Collision Detection
 
 This important concept is implemented with event listeners. You can define them on the tab ```initializeEventListeners```.
