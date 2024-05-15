@@ -55,7 +55,7 @@ The options under **multipleEventPolicies** give you choices on how the triggere
 2. **Ignore** -> only one event once (default)
 3. **Combine** -> the program will try to execute all at the same time.
 
-The options under **heldKeyPolicy** covers the event handling from the point of view of the trigger. The default option ```FIRE_MULTIPLE``` will keep sending out triggers as long as you keep the key pressed. This is the type of behaviour you would use for a steady movement.
+The options under **heldKeyPolicy** cover the event handling from the point of view of the trigger. The default option ```FIRE_MULTIPLE``` will keep sending out triggers as long as you keep the key pressed. This is the type of behaviour you would use for a steady movement.
 
 ![keyHeldPolicy Options](/assets/240515_keyTriggering.png)
 
