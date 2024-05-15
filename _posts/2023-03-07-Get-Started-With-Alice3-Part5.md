@@ -81,6 +81,12 @@ Sometimes you want to add or remove models/objects after you have created the se
 
 ![Code for collision events](/assets/240515_CollisionCode.png)
 
-Here is the code for the rover. When it runs over the cake, the later is flattened; when the rover bumps against the other obstacles, it makes a sound, and bounces a short dietance back. Please also notice how variables and assignments are used to identify the cake. Please refer to the previous post for details.
+
+### The Final Code for the Mars Rover Game
+
+Here is the code for the Mars rover. When the user steers the rover to run over the cake, the later is flattened; when the rover bumps against the other obstacles, it makes a sound, and bounces a short distance back. Please also notice how variables and assignments are used to identify the cake. Please refer to the previous post for details.
 
 ![Image collision](/assets/240515_ImageCollision.png)
+
+This Mars Rover adventure is only a small project to introduce some core features of Alice 3, feel free to download the game in the repository and add your own ideas.
+
