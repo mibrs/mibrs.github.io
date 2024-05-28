@@ -6,14 +6,6 @@ author:
 - Michael Braehler
 ---
 
----
-layout: post
-title: "Get Started with Alice 3 - Part 5 - Design a new game, Use of Events for More"
-categories: Introduction Alice-3
-author:
-- Michael Braehler
----
-
 ## Game Design, Set-up, 3rd Person View and More Event Listeners
 
 ### Learning Objectives:
@@ -25,22 +17,16 @@ author:
 
 ### Game Design
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I11Qox6vILg?si=RaChxVY1-RHl7_pM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I11Qox6vILg?si=RaChxVY1-RHl7_pM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
 
 The above video describes one process for creating your own games. It uses Alice 3 as the tool of reference, towards the end of the video it specifically shows you how to code some universal patterns that many games contain.
 
 
 ### Third Person View
 
-Many games are run in the first person mode, the player sees things through the eyes of the acting chararcter. The following link brings you to a video demonstrating how to set up a first person camera mode using the vehicle feature. [Setting up a First Person Camera](https://youtu.be/jxXEXJgrm18). The video first (0:00 to 1:27) demonstrates the technique used with *one shots* in the property panel. The camera is attached to the head of the person, the head serves as vehicle for the camera. 
+Another way for the user to see the player in the game is the **Third Person View**, You bascially see "over the shoulder of the player" and follow his every movements.
 
-![Camera Settings for First Person View with one shots](/assets/230307_SetCameraMarkers.png)
-
-Then afterwards (1:27 to end) the technique is implemented in the code editor.
-
-![Code for First Person View](/assets/230307_EventsForFirstPersonView1.png)
-
-The first person view is also implemented in the example for this blog.
 
 
 ### Collision and Proximity Detection
