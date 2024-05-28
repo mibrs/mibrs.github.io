@@ -127,11 +127,11 @@ Alice has different types and sizes of trash piles, each of them is actually the
 
 For the game, we need to know the size and type of trash of each of them. Therefore, we are creating a new property *typeOfTrash* for class *TrashPile* that can hold the following values:
 
-   3 - Large Pile
-   2 - Medium Sized Pile
-   1 - Small Sized Pile
-   0 - Empty, no more trash there
-   -1 - Trash not for collection in the game.
+  - 3 - Large Pile
+  - 2 - Medium Sized Pile
+  - 1 - Small Sized Pile
+  - 0 - Empty, no more trash there
+  - -1 - Trash not for collection in the game.
 
 ![Property tupeOfTrash](/assets/240528-Property-typeOfTrash.png)
 
