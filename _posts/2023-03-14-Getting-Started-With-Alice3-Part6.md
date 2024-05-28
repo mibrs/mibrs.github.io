@@ -135,7 +135,7 @@ For the game, we need to know the size and type of trash of each of them. Theref
 
 ![Property tupeOfTrash](/assets/240528-Property-typeOfTrash.png)
 
-The following code is using two arrays and a for ... each loop to set the values for each trash pile instance. This is an advanced, but flexible method. You can also use the out commented block ```<this.trashPile> setTypeOfTrash <typeOfTrask <value>>``` six times, once for each pile. <value> is a whole number taken from the list of 5 values above. Here is the full code.
+The following code is using two arrays and a for ... each loop to set the values for each trash pile instance. This is an advanced, but flexible method. You can also use the out commented block ```<this.trashPile> setTypeOfTrash <typeOfTrask <value>>``` six times, once for each pile. *value* is a whole number taken from the list of 5 values above. Here is the full code.
 
 ![Init code for trash piles](/assets/240515-InitTrashPiles.png)
 
