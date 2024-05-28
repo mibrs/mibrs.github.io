@@ -47,7 +47,7 @@ All settings at the beginning of the game are shown on the tab **Scene**.
 
 Another way for the user to see the player in the game is the **Third Person View**, You bascially see "over the shoulder of the player" and follow his every movements.
 
-![3rd person view](/assets/240527-camStartPos.png)
+![3rd person view](/assets/240515-Set-Camera-3rd-Person-View-1.png)
 
 The view is created in the Set-Up Editor. 
 
