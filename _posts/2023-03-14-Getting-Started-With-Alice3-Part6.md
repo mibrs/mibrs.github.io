@@ -123,9 +123,9 @@ The collision and proximity listeners are used to make the game more realistic a
 
 ##### Trash Piles 
 
-Alice has different types and sizes of trash piles, each of them is actually the same object type, but using different *skins* to make them look different. *Skins* are not real property in Alice, you can only change (set) them with a procedure.
+Alice has different types and sizes of trash piles, each of them is actually the same object type, but using different *skins* to make them look different. *Skins* are not a property in Alice, you can only change (*set*) them with a procedure. You cannot *get* information about the skin active.
 
-For the game, we need to know the size and type of trash each of them holds. Therefore, we are creating a new property *typeOfTrash* that can hold the following values:
+For the game, we need to know the size and type of trash of each of them. Therefore, we are creating a new property *typeOfTrash* for class *TrashPile* that can hold the following values:
 
    3 - Large Pile
    2 - Medium Sized Pile
@@ -135,7 +135,7 @@ For the game, we need to know the size and type of trash each of them holds. The
 
 ![Property tupeOfTrash](/assets/240528-Property-typeOfTrash.png)
 
-The follwing code is using two arrays and a for ... each loop to set the values for each trash pile instance. This is an advanced, but flexible method. You can also use the out commented block ```<this.trashPile> setTypeOfTrash <typeOfTrask <value>>``` six times, once for each pile. <value> is a whole number taken from the list of 5 values above. Here is the full code.
+The following code is using two arrays and a for ... each loop to set the values for each trash pile instance. This is an advanced, but flexible method. You can also use the out commented block ```<this.trashPile> setTypeOfTrash <typeOfTrask <value>>``` six times, once for each pile. <value> is a whole number taken from the list of 5 values above. Here is the full code.
 
 ![Init code for trash piles](/assets/240515-InitTrashPiles.png)
 
