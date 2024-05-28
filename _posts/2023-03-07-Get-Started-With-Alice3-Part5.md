@@ -105,13 +105,11 @@ While you can create your own timer (see the videos below) Alice allows you to e
 
 ![Time Handler Code](/assets/2024-05-28_17-29-17.png)
 
-This basic pattern can be modified and combined with out event listeners to meet you game design's requirements.
+This basic pattern can be modified and combined with other event listeners to meet you game design's requirements.
 
 
 #### References
 
-- This video demonstrates and explains a time with start and stop controlled by collision/proximity events [How to Create a Timer in Alice 3_Hannah](https://www.youtube.com/watch?v=MfK8_7mEpOk)
-- This is a more complete introduction with several examples [Timer Examples in Alice 3.1](https://youtu.be/O8wpoUXCf0o?feature=shared)
+- This video demonstrates and explains a timer with start and stop triggered by collision/proximity events [How to Create a Timer in Alice 3_Hannah](https://www.youtube.com/watch?v=MfK8_7mEpOk)
+- This is a more detailed introduction with several examples [Timer Examples in Alice 3.1](https://youtu.be/O8wpoUXCf0o?feature=shared)
 - Extract from video, timer  [Alice 3 Part 10 - Game Design ](https://youtu.be/I11Qox6vILg?feature=shared&t=2383)
-- [Timer with listener](http://www.alice.org/resources/how-tos/setting-up-a-timekeeper/)
-
