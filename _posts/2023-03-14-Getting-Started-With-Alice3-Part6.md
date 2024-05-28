@@ -43,6 +43,29 @@ All settings at the beginning of the game are shown on the tab **Scene**.
 ![Settings for the game](/assets/240528-Settings.png) 
 
 
+#### Process of Implementation
+
+The game is implmented in two phases.
+
+##### Phase 1 - Described here in Part 6
+
+1. covers creating the  scene,
+2. setting camera view,
+3. collision detection of the props (except for trash can)
+4. proximity detection of trash can
+5. some methods opening and closing the lid of the trash can
+6. assigning a property, representing each trash piles state (size, depleted, recyclable waste) to each pile
+7. Coding some test messages for the above, with ```say``` blocks
+ 
+
+##### Phase 2 - Described in Part 7 (tbd)
+
+- Keeping track of trash collected
+- Keeping track of time elapsed
+- Messaging for the user
+
+
+
 ### Third Person View
 
 Another way for the user to see the player in the game is the **Third Person View**, You bascially see "over the shoulder of the player" and follow his every movements.
@@ -52,14 +75,16 @@ Another way for the user to see the player in the game is the **Third Person Vie
 The view is created in the Set-Up Editor. 
 
 - You create your main character, turn him 180 degrees (0.5) and then fix the camera position with the blue arrows below the screen to your liking.
-- Next, you create a Camera Marker for this position, here it is named **camStartPos**. As long as you do not change the camera position later, you will not need it, but if you do the cameral marker gives you always the possibility to go back to the beginning.
-- Now, with the Camera object still chosen on the Property Panel, click on ```Vehicle = ``` and then select the name of the Character. This will set up the camera to follow your character when later you move it around in the game.
+- Next, you create a Camera Marker for this position, here it is named **camStartPos**. As long as you do not reorient the camera, you will not need it, but if you do, the camera marker gives you the possibility to go back to the original orientation.
+- Now, with the Camera object still chosen on the Property Panel, click on ```Vehicle = ``` and then select the name of the Character. This will set up the camera to follow your character later in the game.
 
-The settings you fix in the set-up editor are only valid as long as you do not change the camera position in game with code. The best way to attach the camera permanently for the 3rd player view is to do so in the game.
+The settings you set up in the editor are only valid as long as you do not change the camera position in game with code. The best way to attach the camera permanently for the 3rd player view is to do so in the Code Editor.
 
 The code inside the *sceneActivated* handler is executed first whenever you run your program. with the ```setVehicle``` block you can assign the camera to your character. Before the ```setVehicle```, you should also add a block ```<this.camera> moveAndOrientTo <yourCameraMarker>```. This will move the camera to the assigned position.
 
 ![Activiation Listener](/assets/240515-StarterCode-for-3rd-Person-Camera-View.png)
+
+Now you are ready to move your player around the game.
 
 
 #### Further References
@@ -70,47 +95,62 @@ The code inside the *sceneActivated* handler is executed first whenever you run 
 
 ### Collision and Proximity Detection
 
-This important concept is implemented with event listeners. You can define them on the tab ```initializeEventListeners```.
+This important concept is implemented with event listeners and handlers. You can define them on the tab ```initializeEventListeners```. The screenshots shown here do not apply to our specfic game, but they are easily transferable.
 
 ![Define Listeners](/assets/230307_SelectEventHandlerCollision.png)
 
-You need to declare on two panels which objects can collide/get close to each other. In our case for the game descibed below, Alf should not collide with the trees. So Alf will appear on one panel, the six trees by name on the other panel.
+You need to declare on two panels which objects can collide/get close to each other. In this case Alf of (setA) should not collide with the trees (in setB). So Alf will appear on one panel, the six trees by name on the other panel.
 
 ![SetA panel](/assets/230307_SelectCollisionSetA.png)
 
 ![SetB panel](/assets/230307_SelectCollisionSetB.png)
 
-For how to use the event listeners, have a look in the example.
-
-
-### Game Study with Event Detection
-
-<div style="padding:75% 0 0 0;position:relative;">
-  <iframe src="https://player.vimeo.com/video/805407827?h=f1ea515f41&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="GameStudy1Alice.mp4"></iframe>
-</div>
-<script src="https://player.vimeo.com/api/player.js"></script>
-
-This simple game has one player, named Alf. You can control the camera view by pressing the keys
-- ```C``` Start view
-- ```M``` See the magic tree
-- ```P``` First Person View
-
-You move the person around with the arrow keys. When you approch the magic tree (tree4), he will say *hello* and a pile of coins will appear magically.
-
 
 #### Some Explanations to the Code
 
-Most of the coding takes place in the tab. ```initializeEventListeners```.
+This is the complete code for the event handlers, the code is explained in the sectios below.
 
-![Event Tab](/assets/230307_SimpleGame2Events.png)
+![Park Clean Up Code V1](/assets/240516-ParkCleanUp-V1.png)
 
-There is the ObjectMover that allows you to steer the player with the arrow keys. Then the three keys described above allow the player to change the perspective of the camera.
+##### Event Listeners and Handlers
 
-The collision and proximity listeners are used to make the game more realistic and allow for more interaction between objects.
+Most of the coding so far is done in the tab. ```initializeEventListeners```.
 
-![MyFirstMethod](/assets/230307_SimpleGame2.png)
+There is the ObjectMover that allows you to steer the player with the arrow keys.
 
-Here is a view on the game. When watching the video and also looking at this image will   notice that the pile of coins is visible. The game was played already one time before I recorded it. Can you suggest a change in myFirstMethod that will correct this error?
-![One view at the game](/assets/230307_SimpleGame2Intro.png)
+The collision and proximity listeners are used to make the game more realistic and allow for more interaction between objects. The code below shows you how the handlers are used in the Park Clean Up. The trees and structures are set up in setB of the collision handler. Whenever the player is approaching one of these obstacles, he is repelled.
 
-The project is also available on the [Alice repository](https://github.com/mibrs/Alice3Coding) for this activity here on GitHub. You can download (clone) the repository together with other useful information.
+
+##### Trash Piles 
+
+Alice has different types and sizes of trash piles, each of them is actually the same object type, but using different *skins* to make them look different. *Skins* are not real property in Alice, you can only change (set) them with a procedure.
+
+For the game, we need to know the size and type of trash each of them holds. Therefore, we are creating a new property *typeOfTrash* that can hold the following values:
+
+   3 - Large Pile
+   2 - Medium Sized Pile
+   1 - Small Sized Pile
+   0 - Empty, no more trash there
+   -1 - Trash not for collection in the game.
+
+[Property tupeOfTrash](/assets/240528-Property-typeOfTrash.png)
+
+The follwing code is using two arrays and a for ... each loop to set the values for each trash pile instance. This is an advanced, but flexible method. You can also use the out commented block ```<this.trashPile> setTypeOfTrash <typeOfTrask <value>>``` six times, once for each pile. <value> is a whole number taken from the list of 5 values above. Here is the full code.
+
+[Init code for trash piles](/assets/240515-InitTrashPiles.png)
+
+
+##### Trash Can
+
+When the player *Alf* comes into proximity of the trash can, the method trashCanOpen is called.
+
+[trashCanOpen Method](/assets/240515-TrashCanProcCall.png)
+
+The lid of the trash can is a subpart, this short procedure makes the lid open and close as a short animation.
+
+[](/assets/240515-trashCanOpen-Proc-Definition.png)
+
+
+#### References
+
+The project is also available at [240520 ParkCleanUp1.a3p](https://github.com/mibrs/Alice3Coding/blob/main/240520%20ParkCleanUp1.a3p) as download for this activity.
