@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Get Started with Alice 3 - Part 6 - "
+title: "Get Started with Alice 3 - Part 6 - Game Design, Setup, 3rd person view, More Event Listeners"
 categories: Introduction Alice-3
 author:
 - Michael Braehler
@@ -14,17 +14,23 @@ author:
 - Michael Braehler
 ---
 
-## First Person Mode and Collision/Proximity Events
+## Game Design, Set-up, 3rd Person View and More Event Listeners
 
 ### Learning Objectives:
 
 - How to design a game?
-- Camera perspectives, how to move your player?
-- Use of collision and proximity listeners
-- Finish a basic game (without the competitive elements)
+- 3rd person camera perspective, save start settings
+- Use of activation and collision listeners and handlers
+- Create a basic game's mechanics
+
+### Game Design
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I11Qox6vILg?si=RaChxVY1-RHl7_pM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+The above video describes one process for creating your own games. It uses Alice 3 as the tool of reference, towards the end of the video it specifically shows you how to code some universal patterns that many games contain.
 
 
-### First Person Mode
+### Third Person View
 
 Many games are run in the first person mode, the player sees things through the eyes of the acting chararcter. The following link brings you to a video demonstrating how to set up a first person camera mode using the vehicle feature. [Setting up a First Person Camera](https://youtu.be/jxXEXJgrm18). The video first (0:00 to 1:27) demonstrates the technique used with *one shots* in the property panel. The camera is attached to the head of the person, the head serves as vehicle for the camera. 
 
