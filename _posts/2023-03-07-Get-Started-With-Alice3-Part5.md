@@ -95,6 +95,19 @@ This Mars Rover adventure is only a small project to introduce some core feature
 
 ### Timer
 
+![Timer on screen](/assets/2024-05-28_17-29-53.png)
+
+A timer is a basic staple being part of most games. In its simplest form it just counts up (increment) or down (decrement) in a fixed interval, typically one second if the game is not too fast paced. So, with a decrementing timer you can create a count-down or just keep track of the time before the game is over.
+
+![Global variable for timer](/assets/2024-05-28_17-28-52.png)
+
+While you can create your own timer (see the videos below) Alice allows you to easily get a timer by declaring one global variable and then use a time listener with a time interval you can choose (in the example below 1.0 seconds). So, with one variable declaration, one listener and two lines of code you get a simple timer counting up.
+
+![Time Handler Code](/assets/2024-05-28_17-29-17.png)
+
+This basic pattern can be modified and combined with out event listeners to meet you game design's requirements.
+
+
 #### References
 
 - This video demonstrates and explains a time with start and stop controlled by collision/proximity events [How to Create a Timer in Alice 3_Hannah](https://www.youtube.com/watch?v=MfK8_7mEpOk)
