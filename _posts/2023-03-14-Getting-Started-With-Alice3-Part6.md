@@ -17,16 +17,50 @@ author:
 
 ### Game Design
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I11Qox6vILg?si=RaChxVY1-RHl7_pM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-</iframe>
+This [video](https://youtu.be/I11Qox6vILg?si=Ywy-_0rXghKbwiyB) describes one process for creating your own games. It uses Alice 3 as its authoring tool, towards the end of the video it specifically introduces you how to code some universal patterns that many games contain.
 
-The above video describes one process for creating your own games. It uses Alice 3 as the tool of reference, towards the end of the video it specifically shows you how to code some universal patterns that many games contain.
+
+### The Game Park Clean Up - General Description
+
+#### Description
+
+The game is about doing a cleaning up of a park after a party. The player has to bring the trash from whereever it is in the park to the trash can. He  can only carry a limited amount of trash every time, so he has to travel several times if the trash pile is too big. Furthermore, he can only put recyclable trash into the bin, other types of waste he has to leave for someone else to take care of.
+
+The player has to do the clean up as quickly as possible.
+
+
+#### Layout of the Game
+
+The cameral view shows you from above the layout of the game.
+
+![Layout of the Game](/assets/240515-TopView-GamePlan-Bin-Circled.png)
+
+
+#### The Resources Used in the Game
+
+All settings at the beginning of the game are shown on the tab **Scene**. 
+
+![Settings for the game](/assets/240528-Settings.png) 
 
 
 ### Third Person View
 
 Another way for the user to see the player in the game is the **Third Person View**, You bascially see "over the shoulder of the player" and follow his every movements.
 
+![3rd person view](/assets/240527-camStartPos.png)
+
+The view is created in the Set-Up Editor. 
+
+- You create your main character, turn him 180 degrees (0.5) and then fix the camera position with the blue arrows below the screen to your liking.
+- Next, you create a Camera Marker for this position, here it is named **camStartPos**. As long as you do not change the camera position later, you will not need it, but if you do the cameral marker gives you always the possibility to go back to the beginning.
+- Now, with the Camera object still chosen on the Property Panel, click on ```Vehicle = ``` and then select the name of the Character. This will set up the camera to follow your character when later you move it around in the game.
+
+
+
+#### Further References
+
+- The video introduces how to create a first person view, but it can easily be modified following the instructions above for a 3rd person view. Furthermore, it also shows you how to code the view and switch in between different views using the key listener. [Alice 3 Setting Up A First Person Camera](https://youtu.be/jxXEXJgrm18?feature=shared)
+- This video demonstrates the 3rd person view [Alice 3.1, Camera Movement, tutorial 0.4, Beginner](https://youtu.be/gDlxKxJTW7Y?feature=shared)
 
 
 ### Collision and Proximity Detection
