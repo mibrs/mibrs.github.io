@@ -116,7 +116,7 @@ This is the complete code for the event handlers, the code is explained in the s
 
 Most of the coding so far is done in the tab. ```initializeEventListeners```.
 
-There is the ObjectMover that allows you to steer the player with the arrow keys.
+There is the ```addObjectMoverFor``` event handler that allows you to steer the player with the arrow keys.
 
 The collision and proximity listeners are used to make the game more realistic and allow for more interaction between objects. The code below shows you how the handlers are used in the Park Clean Up. The trees and structures are set up in setB of the collision handler. Whenever the player is approaching one of these obstacles, he is repelled.
 
