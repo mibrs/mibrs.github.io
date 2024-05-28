@@ -92,3 +92,10 @@ Here is the code for the Mars rover. When the user steers the rover to run over 
 
 This Mars Rover adventure is only a small project to introduce some core features of Alice 3, feel free to download the game in the repository and add your own ideas. You can download the complete game [here](https://github.com/mibrs/Alice3Coding/blob/main/240513_Mars_Rover1-Part5.a3p).
 
+
+### Timer
+
+#### References
+
+- This video demonstrates and explains a time with start and stop controlled by collision/proximity events [How to Create a Timer in Alice 3_Hannah](https://www.youtube.com/watch?v=MfK8_7mEpOk)
+
