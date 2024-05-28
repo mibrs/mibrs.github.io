@@ -106,7 +106,7 @@ You need to declare on two panels which objects can collide/get close to each ot
 ![SetB panel](/assets/230307_SelectCollisionSetB.png)
 
 
-#### Some Explanations to the Code
+#### Some Explanations to the Code of the Park Clean Up Game
 
 This is the complete code for the event handlers, the code is explained in the sectios below.
 
