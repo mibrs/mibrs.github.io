@@ -133,22 +133,22 @@ For the game, we need to know the size and type of trash each of them holds. The
    0 - Empty, no more trash there
    -1 - Trash not for collection in the game.
 
-[Property tupeOfTrash](/assets/240528-Property-typeOfTrash.png)
+![Property tupeOfTrash](/assets/240528-Property-typeOfTrash.png)
 
 The follwing code is using two arrays and a for ... each loop to set the values for each trash pile instance. This is an advanced, but flexible method. You can also use the out commented block ```<this.trashPile> setTypeOfTrash <typeOfTrask <value>>``` six times, once for each pile. <value> is a whole number taken from the list of 5 values above. Here is the full code.
 
-[Init code for trash piles](/assets/240515-InitTrashPiles.png)
+![Init code for trash piles](/assets/240515-InitTrashPiles.png)
 
 
 ##### Trash Can
 
 When the player *Alf* comes into proximity of the trash can, the method trashCanOpen is called.
 
-[trashCanOpen Method](/assets/240515-TrashCanProcCall.png)
+![trashCanOpen Method](/assets/240515-TrashCanProcCall.png)
 
 The lid of the trash can is a subpart, this short procedure makes the lid open and close as a short animation.
 
-[](/assets/240515-trashCanOpen-Proc-Definition.png)
+![Open and close lide of trash can method](/assets/240515-trashCanOpen-Proc-Definition.png)
 
 
 #### References
