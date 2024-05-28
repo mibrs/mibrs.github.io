@@ -55,6 +55,11 @@ The view is created in the Set-Up Editor.
 - Next, you create a Camera Marker for this position, here it is named **camStartPos**. As long as you do not change the camera position later, you will not need it, but if you do the cameral marker gives you always the possibility to go back to the beginning.
 - Now, with the Camera object still chosen on the Property Panel, click on ```Vehicle = ``` and then select the name of the Character. This will set up the camera to follow your character when later you move it around in the game.
 
+The settings you fix in the set-up editor are only valid as long as you do not change the camera position in game with code. The best way to attach the camera permanently for the 3rd player view is to do so in the game.
+
+The code inside the *sceneActivated* handler is executed first whenever you run your program. with the ```setVehicle``` block you can assign the camera to your character. Before the ```setVehicle```, you should also add a block ```<this.camera> moveAndOrientTo <yourCameraMarker>```. This will move the camera to the assigned position.
+
+![Activiation Listener](/assets/240515-StarterCode-for-3rd-Person-Camera-View.png)
 
 
 #### Further References
