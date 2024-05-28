@@ -98,4 +98,5 @@ This Mars Rover adventure is only a small project to introduce some core feature
 #### References
 
 - This video demonstrates and explains a time with start and stop controlled by collision/proximity events [How to Create a Timer in Alice 3_Hannah](https://www.youtube.com/watch?v=MfK8_7mEpOk)
+- This is a more complete introduction with several examples [Timer Examples in Alice 3.1](https://youtu.be/O8wpoUXCf0o?feature=shared)
 
